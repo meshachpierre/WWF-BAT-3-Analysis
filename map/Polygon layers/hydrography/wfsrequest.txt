@@ -1,0 +1,1 @@
+http://data.gim.gov.gy:80/geoserver/wfs?format_options=charset%3AUTF-8&typename=geonode%3Ahydrography&outputFormat=SHAPE-ZIP&version=1.0.0&service=WFS&request=GetFeature

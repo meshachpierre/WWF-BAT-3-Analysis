@@ -1,0 +1,263 @@
+id_ct,id_station,date_set,date_capt,date_dayno,time,name_order,name_com,name_sci,name_code,count_pic,count_ind,comments
+2,CT3N,2014-09-23T00:00:00Z,2014-10-02T00:00:00Z,10,01:59:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Animal appears to be injured
+2,CT3N,2014-09-23T00:00:00Z,2014-10-03T00:00:00Z,11,00:55:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Animal appears to be injured
+2,CT3N,2014-09-23T00:00:00Z,2014-10-19T00:00:00Z,27,03:36:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Animal appears to have a wound on the leg
+2,CT3N,2014-09-23T00:00:00Z,2014-10-20T00:00:00Z,28,01:35:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,appears to be walking
+2,CT3N,2014-09-23T00:00:00Z,2014-10-22T00:00:00Z,30,23:03:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,appears to be walking
+2,CT3N,2014-09-23T00:00:00Z,2014-10-28T00:00:00Z,36,01:48:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,appears to be walking
+2,CT3N,2014-09-23T00:00:00Z,2014-10-29T00:00:00Z,37,18:45:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,appears to be walking
+2,CT3N,2014-09-23T00:00:00Z,2014-10-30T00:00:00Z,38,09:47:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,appears to be walking
+2,CT3N,2014-09-23T00:00:00Z,2014-11-01T00:00:00Z,40,02:08:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,male
+2,CT3N,2014-09-23T00:00:00Z,2014-11-07T00:00:00Z,46,12:00:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,"Appears to be looking for food,picture was blurred"
+2,CT3N,2014-09-23T00:00:00Z,2014-11-07T00:00:00Z,46,12:38:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,"Appears to be injured, wound on leg"
+2,CT3N,2014-09-23T00:00:00Z,2014-11-08T00:00:00Z,47,19:12:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Female
+3,CT2N,2014-09-24T00:00:00Z,2014-10-06T00:00:00Z,13,02:29:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,"The left side of the animal is visible, however the animals head is not in the photograph."
+3,CT2N,2014-09-24T00:00:00Z,2014-10-06T00:00:00Z,13,10:15:00,M,Giant Anteater,Myrmecophaga tridactyla,MYRTRI,1,1,The animal is turning towards the right and the right anterior portion of the body is visible.
+3,CT2N,2014-09-24T00:00:00Z,2014-10-15T00:00:00Z,22,11:39:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,3,Animals appear to be walking passed the camera.
+4,CT3A,2014-09-20T00:00:00Z,2014-10-11T00:00:00Z,22,21:38:00,M,Red Brocket deer,Mazama americana,MAZAME,2,1,Female
+4,CT3A,2014-09-20T00:00:00Z,2014-10-26T00:00:00Z,37,11:31:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,left side
+4,CT3A,2014-09-20T00:00:00Z,2014-10-30T00:00:00Z,41,07:53:00,M,Jaguar,Panthera onca,PANONC,1,1,Left side visible
+4,CT3A,2014-09-20T00:00:00Z,2014-11-08T00:00:00Z,50,17:36:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Male
+07,CT3R,2014-09-20T00:00:00Z,2014-09-22T00:00:00Z,3,21:15:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Right side of body, distinguishable white injury/mark on shoulder area"
+07,CT3R,2014-09-20T00:00:00Z,2014-09-23T00:00:00Z,4,17:06:00,M,Jaguar,Panthera onca,PANONC,1,1,Right side of body
+07,CT3R,2014-09-20T00:00:00Z,2014-10-04T00:00:00Z,15,18:31:00,M,Jaguar,Panthera onca,PANONC,1,1,"Right side of Jaguar, may be one as noted in CDY_0034"
+07,CT3R,2014-09-20T00:00:00Z,2014-10-16T00:00:00Z,27,00:04:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,2,Individuals sniffing around
+08,CT2R,2014-09-19T00:00:00Z,2014-09-20T00:00:00Z,2,08:13:00,M,Jaguar,Panthera onca,PANONC,1,1,Left side of Jaguar
+08,CT2R,2014-09-19T00:00:00Z,2014-09-24T00:00:00Z,6,15:05:00,M,Jaguar,Panthera onca,PANONC,1,1,Right side of jaguar
+08,CT2R,2014-09-19T00:00:00Z,2014-09-29T00:00:00Z,11,19:16:00,M,Puma,Puma concolor,PUMCON,3,1,NA
+08,CT2R,2014-09-19T00:00:00Z,2014-09-29T00:00:00Z,11,20:22:00,M,Puma,Puma concolor,PUMCON,1,1,Right side of upper body
+08,CT2R,2014-09-19T00:00:00Z,2014-10-05T00:00:00Z,17,10:04:00,M,Jaguar,Panthera onca,PANONC,1,1,Right side of body
+08,CT2R,2014-09-19T00:00:00Z,2014-10-06T00:00:00Z,18,10:21:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Right posterior region
+08,CT2R,2014-09-19T00:00:00Z,2014-10-08T00:00:00Z,20,06:21:00,M,Jaguar,Panthera onca,PANONC,1,1,Left side of Jaguar
+08,CT2R,2014-09-19T00:00:00Z,2014-10-13T00:00:00Z,25,07:54:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Left side of deer
+08,CT2R,2014-09-19T00:00:00Z,2014-10-14T00:00:00Z,26,10:34:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Left side of deer
+08,CT2R,2014-09-19T00:00:00Z,2014-10-16T00:00:00Z,28,02:19:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,"Left side, bruise on left ankle"
+08,CT2R,2014-09-19T00:00:00Z,2014-10-17T00:00:00Z,29,07:22:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Left anterior side
+9,CT7R,2014-09-24T00:00:00Z,2014-09-27T00:00:00Z,4,04:06:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Male, right side of body, white marks on right-front leg"
+9,CT7R,2014-09-24T00:00:00Z,2014-09-29T00:00:00Z,6,00:36:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,"Right side, bruise on shoulder"
+9,CT7R,2014-09-24T00:00:00Z,2014-10-05T00:00:00Z,12,02:05:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Male, left side of body"
+9,CT7R,2014-09-24T00:00:00Z,2014-10-06T00:00:00Z,13,07:36:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Right side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-11T00:00:00Z,18,21:08:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Male- right side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-13T00:00:00Z,20,00:54:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Left side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-22T00:00:00Z,29,08:14:00,M,Puma,Puma concolor,PUMCON,1,1,Right side of upper body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-22T00:00:00Z,29,08:24:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Right side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-25T00:00:00Z,32,01:31:00,M,Jaguar,Panthera onca,PANONC,1,1,Left side of body. Injury on shoulder
+9,CT7R,2014-09-24T00:00:00Z,2014-10-25T00:00:00Z,32,03:16:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Male, right side of body, white marks on right-front leg"
+9,CT7R,2014-09-24T00:00:00Z,2014-10-26T00:00:00Z,33,22:27:00,M,Tapir,Tapirus terrestris,TAPTER,2,1,Right side of upper body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-27T00:00:00Z,34,01:39:00,M,Jaguar,Panthera onca,PANONC,1,1,Right side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-10-31T00:00:00Z,38,16:40:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Left side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-11-01T00:00:00Z,39,02:52:00,M,Tapir,Tapirus terrestris,TAPTER,1,1,Right side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-11-02T00:00:00Z,40,05:15:00,M,Puma,Puma concolor,PUMCON,1,1,Right side of body
+9,CT7R,2014-09-24T00:00:00Z,2014-11-08T00:00:00Z,46,21:01:00,M,Tapir,Tapirus terrestris,TAPTER,1,1,Left side of body
+12,CT4C,2014-09-21T00:00:00Z,2014-09-22T00:00:00Z,2,11:43:00,M,Collared Peccary,Pecari tajacu,PECTAJ,5,2,Peccaries observed sniffing around
+12,CT4C,2014-09-21T00:00:00Z,2014-09-27T00:00:00Z,7,06:32:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Left side of body
+12,CT4C,2014-09-21T00:00:00Z,2014-10-06T00:00:00Z,16,12:41:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Left side of body
+12,CT4C,2014-09-21T00:00:00Z,2014-10-07T00:00:00Z,17,21:12:00,M,Red Brocket deer,Mazama americana,MAZAME,2,1,Right anterior region shown
+12,CT4C,2014-09-21T00:00:00Z,2014-10-21T00:00:00Z,31,17:48:00,M,Acouchi,Myoprocta acouchy,MYOACO,1,1,"Female, Left side of body"
+12,CT4C,2014-09-21T00:00:00Z,2014-10-26T00:00:00Z,36,11:42:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,"Male, righ side of body"
+12,CT4C,2014-09-21T00:00:00Z,2014-11-01T00:00:00Z,42,00:54:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Right side of body
+12,CT4C,2014-09-21T00:00:00Z,2014-11-08T00:00:00Z,49,16:37:00,M,Collared Peccary,Pecari tajacu,PECTAJ,6,3,"Peccaries observed sniffing around, one appears to be giving birth"
+12,CT4C,2014-09-21T00:00:00Z,2014-11-09T00:00:00Z,50,04:04:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Head and posterior of peccary
+12,CT4C,2014-09-21T00:00:00Z,2014-11-09T00:00:00Z,50,06:02:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Head region of peccary
+13,CT1R,2014-09-24T00:00:00Z,2014-10-14T00:00:00Z,21,05:21:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be walking
+13,CT1R,2014-09-24T00:00:00Z,2014-10-14T00:00:00Z,21,11:47:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be running
+13,CT1R,2014-09-24T00:00:00Z,2014-10-16T00:00:00Z,23,05:01:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be a female walking
+13,CT1R,2014-09-24T00:00:00Z,2014-10-18T00:00:00Z,25,14:43:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,4,Appear to just be standing
+13,CT1R,2014-09-24T00:00:00Z,2014-10-19T00:00:00Z,26,08:37:00,M,Agouti,Dasyprocta leporina,DASLEP,2,1,Appears to be walking
+13,CT1R,2014-09-24T00:00:00Z,2014-10-21T00:00:00Z,28,05:12:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be an injured female walking
+13,CT1R,2014-09-24T00:00:00Z,2014-10-24T00:00:00Z,31,17:23:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be injured at the mouth and walking
+13,CT1R,2014-09-24T00:00:00Z,2014-10-28T00:00:00Z,35,17:56:00,M,Acouchi,Myoprocta acouchy,MYOACO,1,1,Appears to be injured at the mouth and walking
+13,CT1R,2014-09-24T00:00:00Z,2014-10-31T00:00:00Z,38,07:03:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be standing and looking into the camera
+14,CT5Z,2014-09-22T00:00:00Z,2014-09-22T00:00:00Z,1,21:18:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,"Left side, sniffing around"
+14,CT5Z,2014-09-22T00:00:00Z,2014-10-18T00:00:00Z,27,12:17:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Right side of body, Maybe margay"
+14,CT5Z,2014-09-22T00:00:00Z,2014-10-23T00:00:00Z,32,08:03:00,M,Collared Peccary,Pecari tajacu,PECTAJ,4,1,"Female, sniffing around"
+14,CT5Z,2014-09-22T00:00:00Z,2014-11-03T00:00:00Z,43,11:34:00,B,Black Curassow,Crax alector,CRAALE,1,1,Left side of body
+15,CT5B,2014-09-22T00:00:00Z,2014-10-02T00:00:00Z,11,17:52:00,M,Red Brocket deer,Mazama americana,MAZAME,2,1,What appears to be the rump of an animal can be seen in the photograph.
+19,CT2C,2014-09-19T00:00:00Z,2014-09-21T00:00:00Z,3,15:46:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,4,Appear to lingering around the camera
+19,CT2C,2014-09-19T00:00:00Z,2014-09-25T00:00:00Z,7,17:33:00,M,Agouti,Dasyprocta leporina,DASLEP,3,1,Appears to be a male carrying an object in its mouth
+19,CT2C,2014-09-19T00:00:00Z,2014-09-27T00:00:00Z,9,07:25:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be  carrying an object in its mouth
+19,CT2C,2014-09-19T00:00:00Z,2014-09-27T00:00:00Z,9,08:02:00,M,Agouti,Dasyprocta leporina,DASLEP,2,1,Appears to be  foraging
+19,CT2C,2014-09-19T00:00:00Z,2014-09-27T00:00:00Z,9,08:38:00,M,Agouti,Dasyprocta leporina,DASLEP,6,1,Appears to walking
+19,CT2C,2014-09-19T00:00:00Z,2014-09-27T00:00:00Z,9,09:19:00,M,Agouti,Dasyprocta leporina,DASLEP,4,1,"Appears to be  foraging,carring object in its mouth"
+19,CT2C,2014-09-19T00:00:00Z,2014-09-27T00:00:00Z,9,12:43:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,left side. Cute photograph
+19,CT2C,2014-09-19T00:00:00Z,2014-09-27T00:00:00Z,9,16:53:00,M,Agouti,Dasyprocta leporina,DASLEP,6,1,"Appears to running, injured and carrying object in its mouth"
+19,CT2C,2014-09-19T00:00:00Z,2014-09-28T00:00:00Z,10,06:11:00,M,Agouti,Dasyprocta leporina,DASLEP,3,1,Appears to be an injured female  carrying an object in ts mouth
+19,CT2C,2014-09-19T00:00:00Z,2014-09-28T00:00:00Z,10,15:44:00,M,Agouti,Dasyprocta leporina,DASLEP,5,2,"Appears to walking,male,scar on the left jaw"
+19,CT2C,2014-09-19T00:00:00Z,2014-09-28T00:00:00Z,10,16:33:00,M,Agouti,Dasyprocta leporina,DASLEP,2,1,Appears to be foraging
+19,CT2C,2014-09-19T00:00:00Z,2014-09-29T00:00:00Z,11,08:38:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be  carrying an object in its mouth
+19,CT2C,2014-09-19T00:00:00Z,2014-10-03T00:00:00Z,15,04:38:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Appears to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-03T00:00:00Z,15,16:31:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,1,Appears to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-05T00:00:00Z,17,14:14:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,2,Appear to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-06T00:00:00Z,18,09:36:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be foraging
+19,CT2C,2014-09-19T00:00:00Z,2014-10-07T00:00:00Z,19,08:57:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,1,Appears to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-07T00:00:00Z,19,13:56:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,2,Appears to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-07T00:00:00Z,19,14:43:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,2,Appears to just be standing and eating
+19,CT2C,2014-09-19T00:00:00Z,2014-10-10T00:00:00Z,22,05:14:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,3,Appears to running
+19,CT2C,2014-09-19T00:00:00Z,2014-10-12T00:00:00Z,24,17:26:00,M,Jaguarundi,Herpailurus yagouaroundi,HERYAG,2,1,"left side, male"
+19,CT2C,2014-09-19T00:00:00Z,2014-10-14T00:00:00Z,26,08:50:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,1,Appears to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-18T00:00:00Z,30,14:09:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be foraging
+19,CT2C,2014-09-19T00:00:00Z,2014-10-21T00:00:00Z,33,03:25:00,M,Armadillo,Dasypus sp.,DASSP.,1,1,Appears to running
+19,CT2C,2014-09-19T00:00:00Z,2014-10-25T00:00:00Z,37,14:25:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be foraging
+19,CT2C,2014-09-19T00:00:00Z,2014-10-27T00:00:00Z,39,12:41:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,1,Appears to just be standing
+19,CT2C,2014-09-19T00:00:00Z,2014-10-29T00:00:00Z,41,23:03:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to just be standing
+21,CT4R,2014-09-21T00:00:00Z,2014-09-21T00:00:00Z,1,22:33:00,M,Puma,Puma concolor,PUMCON,1,1,"Appears to be walking, Male with a healthy appearance,left side captured"
+21,CT4R,2014-09-21T00:00:00Z,2014-09-21T00:00:00Z,1,22:43:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Appears to be walking, healthy appearance,left side captured"
+21,CT4R,2014-09-21T00:00:00Z,2014-10-04T00:00:00Z,14,16:16:00,M,Jaguar,Panthera onca,PANONC,1,1,"Right side visible, sex cannot be determined"
+21,CT4R,2014-09-21T00:00:00Z,2014-10-09T00:00:00Z,19,10:53:00,M,Jaguar,Panthera onca,PANONC,1,1,"Left side visible, sex not determined"
+21,CT4R,2014-09-21T00:00:00Z,2014-10-11T00:00:00Z,21,04:51:00,M,Puma,Puma concolor,PUMCON,1,1,"Left side, only rear end visible, apppears to be walking"
+21,CT4R,2014-09-21T00:00:00Z,2014-10-22T00:00:00Z,32,21:31:00,M,Puma,Puma concolor,PUMCON,1,1,"Appears to be walking, female, left side, appears to be healthy"
+21,CT4R,2014-09-21T00:00:00Z,2014-10-23T00:00:00Z,33,05:22:00,M,Puma,Puma concolor,PUMCON,1,1,"Appears to be walking, female, right side, appears to be healthy"
+21,CT4R,2014-09-21T00:00:00Z,2014-10-29T00:00:00Z,39,09:02:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Appears to be walking
+21,CT4R,2014-09-21T00:00:00Z,2014-10-29T00:00:00Z,39,19:07:00,M,Puma,Puma concolor,PUMCON,1,1,"Appears to be walking, right side, appears to be healthy"
+24,CT5R,2014-09-23T00:00:00Z,2014-10-16T00:00:00Z,24,16:56:00,M,Jaguar,Panthera onca,PANONC,1,1,Left side of the animal
+24,CT5R,2014-09-23T00:00:00Z,2014-10-22T00:00:00Z,30,23:17:00,M,Puma,Puma concolor,PUMCON,1,1,The left side of the animal is completely visible. Animal appears slightly malnourished
+32,CT3C,2014-09-20T00:00:00Z,2014-09-23T00:00:00Z,4,09:22:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,5,"In one instance, there is either an individual opening one of its wings."
+32,CT3C,2014-09-20T00:00:00Z,2014-09-28T00:00:00Z,9,11:06:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Single individual walking passed and looking at the camera.
+32,CT3C,2014-09-20T00:00:00Z,2014-10-06T00:00:00Z,17,07:49:00,M,Jaguar,Panthera onca,PANONC,1,1,NA
+32,CT3C,2014-09-20T00:00:00Z,2014-10-13T00:00:00Z,24,04:18:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Animal appears to be foraging while passing the camera.
+32,CT3C,2014-09-20T00:00:00Z,2014-10-14T00:00:00Z,25,15:02:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,"Possibly a male animal, the animals back it toward the camera."
+32,CT3C,2014-09-20T00:00:00Z,2014-10-19T00:00:00Z,30,00:50:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,2,The birds appear to be heading toward the area behind the camera
+32,CT3C,2014-09-20T00:00:00Z,2014-10-26T00:00:00Z,37,02:44:00,M,Lowland Paca,Cuniculus paca,CUNPAC,2,1,The rump of the animal apears to have a number a ticks.
+32,CT3C,2014-09-20T00:00:00Z,2014-10-27T00:00:00Z,38,13:36:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,4,NA
+32,CT3C,2014-09-20T00:00:00Z,2014-10-27T00:00:00Z,38,14:56:00,M,Collared Peccary,Pecari tajacu,PECTAJ,3,1,A collared peccary appears to be cicrling the palm in the center of the photograph.
+32,CT3C,2014-09-20T00:00:00Z,2014-11-11T00:00:00Z,53,00:31:00,M,Tapir,Tapirus terrestris,TAPTER,1,1,NA
+34,CT5O,2014-09-23T00:00:00Z,2014-10-13T00:00:00Z,21,17:53:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,"Right side, bruises on neck, left ankle"
+34,CT5O,2014-09-23T00:00:00Z,2014-10-27T00:00:00Z,35,02:42:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,"Right side, same as CDY_0003"
+34,CT5O,2014-09-23T00:00:00Z,2014-10-28T00:00:00Z,36,06:34:00,M,Grey Brocket deer,Mazama nemorivaga,MAZNEM,1,1,"Left side, lower body"
+34,CT5O,2014-09-23T00:00:00Z,2014-11-03T00:00:00Z,42,06:16:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Left side of body
+37,CT1E,2014-09-18T00:00:00Z,2014-09-29T00:00:00Z,12,13:46:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,2,Appears to be flocking around the camera
+37,CT1E,2014-09-18T00:00:00Z,2014-10-15T00:00:00Z,28,12:49:00,B,Black Curassow,Crax alector,CRAALE,3,1,Just standing in front of the camera
+39,CT1B,2014-09-18T00:00:00Z,2014-09-21T00:00:00Z,4,12:11:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be running
+39,CT1B,2014-09-18T00:00:00Z,2014-09-27T00:00:00Z,10,18:32:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to be running
+39,CT1B,2014-09-18T00:00:00Z,2014-10-01T00:00:00Z,14,17:06:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,"Appears to be running,scar on left side face"
+39,CT1B,2014-09-18T00:00:00Z,2014-10-02T00:00:00Z,15,02:55:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-10-05T00:00:00Z,18,08:09:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-10-05T00:00:00Z,18,23:10:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-10-08T00:00:00Z,21,05:31:00,M,Agouti,Dasyprocta leporina,DASLEP,3,1,"Appears to be running,scar on left side face"
+39,CT1B,2014-09-18T00:00:00Z,2014-10-11T00:00:00Z,24,05:44:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-10-11T00:00:00Z,24,18:32:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-10-11T00:00:00Z,24,21:58:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-10-15T00:00:00Z,28,05:32:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,"Appears to be walking, scar on left side face"
+39,CT1B,2014-09-18T00:00:00Z,2014-10-15T00:00:00Z,28,09:27:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,2,Just standing
+39,CT1B,2014-09-18T00:00:00Z,2014-10-15T00:00:00Z,28,19:08:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Only rear end is visible
+39,CT1B,2014-09-18T00:00:00Z,2014-10-15T00:00:00Z,28,19:26:00,M,Armadillo,Dasypus sp.,DASSP.,1,1,Appears to be foraging
+39,CT1B,2014-09-18T00:00:00Z,2014-10-18T00:00:00Z,31,19:15:00,M,Red Brocket deer,Mazama americana,MAZAME,2,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-11-07T00:00:00Z,51,06:52:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be walking
+39,CT1B,2014-09-18T00:00:00Z,2014-11-08T00:00:00Z,52,08:28:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,"Appears to be walking, male"
+40,CT4A,2014-09-21T00:00:00Z,2014-09-23T00:00:00Z,3,08:09:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,2,Left side of body
+40,CT4A,2014-09-21T00:00:00Z,2014-09-25T00:00:00Z,5,17:02:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,"Right side of body, large swelling on right forelegs"
+40,CT4A,2014-09-21T00:00:00Z,2014-09-29T00:00:00Z,9,02:53:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Right side of body
+40,CT4A,2014-09-21T00:00:00Z,2014-10-08T00:00:00Z,18,10:54:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Right side of body
+40,CT4A,2014-09-21T00:00:00Z,2014-10-23T00:00:00Z,33,10:28:00,M,Jaguar,Panthera onca,PANONC,1,1,Right side of body. Juvenile
+40,CT4A,2014-09-21T00:00:00Z,2014-10-25T00:00:00Z,35,13:06:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,1,Head region
+40,CT4A,2014-09-21T00:00:00Z,2014-10-26T00:00:00Z,36,21:29:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Right-frontal region
+40,CT4A,2014-09-21T00:00:00Z,2014-10-30T00:00:00Z,40,08:57:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Left side of body
+40,CT4A,2014-09-21T00:00:00Z,2014-11-02T00:00:00Z,43,03:28:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,"Right side of body, bruise on lower right leg"
+43,CT4B,2014-09-21T00:00:00Z,2014-10-01T00:00:00Z,11,17:08:00,M,Puma,Puma concolor,PUMCON,1,1,appears to be a puma.. Review
+43,CT4B,2014-09-21T00:00:00Z,2014-10-08T00:00:00Z,18,09:24:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,NA
+43,CT4B,2014-09-21T00:00:00Z,2014-10-09T00:00:00Z,19,09:17:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,The animal is is walking passed the camera.
+43,CT4B,2014-09-21T00:00:00Z,2014-10-12T00:00:00Z,22,15:30:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,NA
+43,CT4B,2014-09-21T00:00:00Z,2014-11-01T00:00:00Z,42,13:13:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Solitary individual walking passed the camera.
+43,CT4B,2014-09-21T00:00:00Z,2014-11-02T00:00:00Z,43,08:18:00,B,Black Curassow,Crax alector,CRAALE,2,1,NA
+43,CT4B,2014-09-21T00:00:00Z,2014-11-05T00:00:00Z,46,11:55:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,2,NA
+43,CT4B,2014-09-21T00:00:00Z,2014-11-07T00:00:00Z,48,11:27:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,The photograph is exceptionally dark for the time at which it was recorded.
+46,CT6N,2014-09-24T00:00:00Z,2014-10-31T00:00:00Z,38,06:25:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,"The right side of the animal has a few clear patches of skin, possibly from old wounds"
+46,CT6N,2014-09-24T00:00:00Z,2014-10-31T00:00:00Z,38,15:04:00,M,Tayra,Eira barbara,EIRBAR,1,1,Animal is hurriedly going passed the camera.
+47,CT5A,2014-09-22T00:00:00Z,2014-10-04T00:00:00Z,13,08:48:00,M,Giant Anteater,Myrmecophaga tridactyla,MYRTRI,1,1,Head region
+47,CT5A,2014-09-22T00:00:00Z,2014-10-22T00:00:00Z,31,20:49:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Left posterior region pictured
+47,CT5A,2014-09-22T00:00:00Z,2014-10-25T00:00:00Z,34,06:17:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,1,Left region of body
+47,CT5A,2014-09-22T00:00:00Z,2014-11-04T00:00:00Z,44,01:20:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Left side of body
+47,CT5A,2014-09-22T00:00:00Z,2014-11-10T00:00:00Z,50,04:07:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,"Right side of body, bruise on left hind leg"
+49,CT1N,2014-09-24T00:00:00Z,2014-09-25T00:00:00Z,2,05:05:00,M,Red Brocket deer,Mazama americana,MAZAME,2,1,Bruise on right side of neck
+49,CT1N,2014-09-24T00:00:00Z,2014-10-01T00:00:00Z,8,09:06:00,M,Tapir,Tapirus terrestris,TAPTER,2,1,Head region
+49,CT1N,2014-09-24T00:00:00Z,2014-10-01T00:00:00Z,8,11:20:00,M,Collared Peccary,Pecari tajacu,PECTAJ,11,2,Peccary sniffing around
+49,CT1N,2014-09-24T00:00:00Z,2014-10-20T00:00:00Z,27,06:30:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,3,Sniffing around
+49,CT1N,2014-09-24T00:00:00Z,2014-10-30T00:00:00Z,37,10:47:00,B,Black Curassow,Crax alector,CRAALE,3,1,Left and right region of head
+49,CT1N,2014-09-24T00:00:00Z,2014-11-01T00:00:00Z,39,19:25:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,"Right, frontal region, deer sniffing around"
+50,CT1Z,2014-09-18T00:00:00Z,2014-09-21T00:00:00Z,4,08:40:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,NA
+50,CT1Z,2014-09-18T00:00:00Z,2014-09-21T00:00:00Z,4,11:19:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1,Animal in each case is passing the area described above.
+50,CT1Z,2014-09-18T00:00:00Z,2014-09-23T00:00:00Z,6,14:11:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,2,One animal is seen walking passed the camera while another is seen foraging
+50,CT1Z,2014-09-18T00:00:00Z,2014-09-24T00:00:00Z,7,08:58:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,2,Two animals are seen foraging in the lightly excavated area.
+50,CT1Z,2014-09-18T00:00:00Z,2014-09-29T00:00:00Z,12,08:05:00,M,Collared Peccary,Pecari tajacu,PECTAJ,3,2,NA
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-10T00:00:00Z,23,13:08:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Animal is walking passed and apparently sniffing the area in front of the camera.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-11T00:00:00Z,24,23:41:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,"Animal is walking passed the camera, short antlers are present."
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-12T00:00:00Z,25,20:08:00,M,Armadillo,Dasypus sp.,DASSP.,1,1,Scurrying passed the camera.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-13T00:00:00Z,26,05:42:00,B,Black Curassow,Crax alector,CRAALE,1,1,Strutting passed the camera.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-13T00:00:00Z,26,19:43:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Photo taken on left side of the animal.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-15T00:00:00Z,28,05:54:00,B,Black Curassow,Crax alector,CRAALE,1,2,A pair of birds walking passed the camera.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-21T00:00:00Z,34,05:52:00,B,Black Curassow,Crax alector,CRAALE,1,1,Single bird walking away in the direction in which the camera is pointing.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-21T00:00:00Z,34,13:36:00,B,Black Curassow,Crax alector,CRAALE,1,1,Bird walking towards the right end of the picture.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-23T00:00:00Z,36,15:50:00,B,Black Curassow,Crax alector,CRAALE,2,1,Bird walking towards the left end of the picture.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-24T00:00:00Z,37,16:13:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Animal is either fetching an object or has a wound on its upper jaw.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-25T00:00:00Z,38,16:05:00,B,Black Curassow,Crax alector,CRAALE,2,2,NA
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-28T00:00:00Z,41,15:13:00,B,Black Curassow,Crax alector,CRAALE,1,1,Solitary animal walking passed the camera.
+50,CT1Z,2014-09-18T00:00:00Z,2014-10-29T00:00:00Z,42,05:40:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,6,"Group of animals gathered in the lightly excavated area, at least one of them appears to be foraging."
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-01T00:00:00Z,45,10:34:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,2,It obscures the surroundings and possibly other individuals from view.
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-02T00:00:00Z,46,12:13:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,1,Animal is walking in one direction and then seems to make an about turn.
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-04T00:00:00Z,48,06:13:00,B,Black Curassow,Crax alector,CRAALE,1,1,Bird is strutting passed the camera.
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-05T00:00:00Z,49,13:31:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,2,3,Animals are seen walking passed the camera
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-07T00:00:00Z,51,07:09:00,B,Black Curassow,Crax alector,CRAALE,1,1,Only part of the tail and wing of the animal are visible making identification tedious.
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-07T00:00:00Z,51,23:47:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Animal appears to be foraging.
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-08T00:00:00Z,52,17:10:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,2,One animal has its head in a strange position with its beak open and its tongue out.
+50,CT1Z,2014-09-18T00:00:00Z,2014-11-10T00:00:00Z,54,09:10:00,B,Black Curassow,Crax alector,CRAALE,1,1,Animal is walking passed the camera.
+52,CT1D,2014-09-18T00:00:00Z,2014-09-27T00:00:00Z,10,10:02:00,M,Collared Peccary,Pecari tajacu,PECTAJ,3,1,"Appears to be walking,looking directly in camera,"
+52,CT1D,2014-09-18T00:00:00Z,2014-10-09T00:00:00Z,22,19:31:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Appears to be foraging
+52,CT1D,2014-09-18T00:00:00Z,2014-10-10T00:00:00Z,23,11:23:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Wound on the left side of the face
+52,CT1D,2014-09-18T00:00:00Z,2014-10-12T00:00:00Z,25,08:22:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be a scar on the left side of face and bruises on the fore leg
+52,CT1D,2014-09-18T00:00:00Z,2014-10-16T00:00:00Z,29,12:17:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to have a swollwen mass above the left leg
+52,CT1D,2014-09-18T00:00:00Z,2014-10-18T00:00:00Z,31,14:43:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be looking for food
+52,CT1D,2014-09-18T00:00:00Z,2014-11-03T00:00:00Z,47,19:01:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Appears to be looking for food
+53,CT6R,2014-09-24T00:00:00Z,2014-09-29T00:00:00Z,6,09:54:00,M,Collared Peccary,Pecari tajacu,PECTAJ,5,3,Peccaries appear to be foraging and crossing the trail. Largest number observed in one photo is 3.
+53,CT6R,2014-09-24T00:00:00Z,2014-09-29T00:00:00Z,6,10:17:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Three individuals again crossing the trail.
+53,CT6R,2014-09-24T00:00:00Z,2014-09-30T00:00:00Z,7,14:19:00,M,Puma,Puma concolor,PUMCON,1,1,"Right side of animal taken, animal appears somewhat thin."
+53,CT6R,2014-09-24T00:00:00Z,2014-10-02T00:00:00Z,9,18:58:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Left side of male animal captured
+53,CT6R,2014-09-24T00:00:00Z,2014-10-03T00:00:00Z,10,00:46:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Animal crossing the trail.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-03T00:00:00Z,10,02:40:00,M,Puma,Puma concolor,PUMCON,1,1,Right side of animal captured. Possibly an old circular wound present behind the right shoulder.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-04T00:00:00Z,11,12:09:00,M,Jaguar,Panthera onca,PANONC,1,1,"Left side of animal captured, from left leg to tail in photo."
+53,CT6R,2014-09-24T00:00:00Z,2014-10-06T00:00:00Z,13,23:11:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Animal crossing the trail.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-07T00:00:00Z,14,22:12:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Right side of male animal captured.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-09T00:00:00Z,16,15:31:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Animal crossing the trail.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-11T00:00:00Z,18,04:27:00,M,Jaguar,Panthera onca,PANONC,1,1,"Right side of animal captured, anterior and mid section in photo. Appears young."
+53,CT6R,2014-09-24T00:00:00Z,2014-10-13T00:00:00Z,20,03:55:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Left side of male animal captured
+53,CT6R,2014-09-24T00:00:00Z,2014-10-18T00:00:00Z,25,10:43:00,M,Jaguar,Panthera onca,PANONC,1,1,Left side of animal captured.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-22T00:00:00Z,29,06:48:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Animal crossing the trail.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-22T00:00:00Z,29,18:50:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Right side of animal captured.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-24T00:00:00Z,31,19:32:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Left side of male animal, mouth open. Bulging stomach. May have just eaten"
+53,CT6R,2014-09-24T00:00:00Z,2014-10-24T00:00:00Z,31,23:00:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Right side of male animal, mouth open"
+53,CT6R,2014-09-24T00:00:00Z,2014-10-26T00:00:00Z,33,01:04:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Left side of animal.
+53,CT6R,2014-09-24T00:00:00Z,2014-10-26T00:00:00Z,33,06:24:00,M,Puma,Puma concolor,PUMCON,1,1,Right side of animal except hind quarters.
+53,CT6R,2014-09-24T00:00:00Z,2014-11-02T00:00:00Z,40,18:59:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Left side of male animal.
+53,CT6R,2014-09-24T00:00:00Z,2014-11-04T00:00:00Z,42,22:10:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Right side of animal.
+53,CT6R,2014-09-24T00:00:00Z,2014-11-06T00:00:00Z,44,14:20:00,M,Puma,Puma concolor,PUMCON,1,1,Right side of animal.
+53,CT6R,2014-09-24T00:00:00Z,2014-11-07T00:00:00Z,45,18:55:00,M,Tapir,Tapirus terrestris,TAPTER,1,1,Large animal walking along trail.
+53,CT6R,2014-09-24T00:00:00Z,2014-11-09T00:00:00Z,47,15:58:00,M,Agouti,Dasyprocta leporina,DASLEP,2,1,Animal appears to be fetching an item in its mouth.
+53,CT6R,2014-09-24T00:00:00Z,2014-11-13T00:00:00Z,51,09:26:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Animal walking along trail.
+55,CT3B,2014-09-20T00:00:00Z,2014-10-20T00:00:00Z,31,06:43:00,M,Jaguar,Panthera onca,PANONC,1,1,"Left side, sex could not be determined. Name: 4 Leaf Clover"
+57,CT2D,2014-09-19T00:00:00Z,2014-09-22T00:00:00Z,4,11:11:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1,Peccary foraging in front of camera.
+57,CT2D,2014-09-19T00:00:00Z,2014-10-16T00:00:00Z,28,20:47:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Walking passed camera.
+57,CT2D,2014-09-19T00:00:00Z,2014-11-07T00:00:00Z,50,09:53:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Animal has an injury on the left side of its mouth that appears to be healing well.
+59,CT1A,2014-09-18T00:00:00Z,2014-09-22T00:00:00Z,5,07:39:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,"Appears to be healthy, just walking"
+59,CT1A,2014-09-18T00:00:00Z,2014-09-22T00:00:00Z,5,11:15:00,M,Giant Anteater,Myrmecophaga tridactyla,MYRTRI,1,1,Only snout is visible
+59,CT1A,2014-09-18T00:00:00Z,2014-09-27T00:00:00Z,10,10:08:00,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1,Appears to be foraging
+59,CT1A,2014-09-18T00:00:00Z,2014-10-01T00:00:00Z,14,07:13:00,M,Tapir,Tapirus terrestris,TAPTER,5,1,"Female, appears to be foraging"
+59,CT1A,2014-09-18T00:00:00Z,2014-10-06T00:00:00Z,19,20:30:00,M,Red Brocket deer,Mazama americana,MAZAME,1,1,Appears to be walking
+59,CT1A,2014-09-18T00:00:00Z,2014-10-16T00:00:00Z,29,16:17:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,"Only the body is visible, appears to be an ocelot"
+59,CT1A,2014-09-18T00:00:00Z,2014-10-30T00:00:00Z,43,10:30:00,B,Black Curassow,Crax alector,CRAALE,1,1,Just walking around
+59,CT1A,2014-09-18T00:00:00Z,2014-11-06T00:00:00Z,50,22:45:00,M,Jaguarundi,Herpailurus yagouaroundi,HERYAG,1,1,"Appears to be healthy, just walking. Right"
+59,CT1A,2014-09-18T00:00:00Z,2014-11-08T00:00:00Z,52,15:59:00,M,Collared Peccary,Pecari tajacu,PECTAJ,3,2,Appears to be eating
+60,CT1C,2014-09-18T00:00:00Z,2014-09-20T00:00:00Z,3,17:37:00,M,Ocelot,Leopardus pardalis,LEOPAR,1,1,Right side of male animal.
+60,CT1C,2014-09-18T00:00:00Z,2014-09-20T00:00:00Z,3,21:34:00,M,Armadillo,Dasypus sp.,DASSP.,1,1,Walking passed.
+60,CT1C,2014-09-18T00:00:00Z,2014-09-22T00:00:00Z,5,21:02:00,M,Armadillo,Dasypus sp.,DASSP.,1,1,Walking passed.
+60,CT1C,2014-09-18T00:00:00Z,2014-09-23T00:00:00Z,6,10:32:00,M,Collared Peccary,Pecari tajacu,PECTAJ,2,2,Each picture shows one individual going in the same direction towards the right of the camera.
+60,CT1C,2014-09-18T00:00:00Z,2014-09-27T00:00:00Z,10,11:39:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,5,Group walking passed.
+60,CT1C,2014-09-18T00:00:00Z,2014-10-17T00:00:00Z,30,03:30:00,M,Red Brocket Deer,Mazama americana,MAZAME,1,1,Foraging while walking passed
+60,CT1C,2014-09-18T00:00:00Z,2014-10-19T00:00:00Z,32,09:20:00,B,Black Curassow,Crax alector,CRAALE,1,2,Observing camera trap.
+60,CT1C,2014-09-18T00:00:00Z,2014-10-22T00:00:00Z,35,19:42:00,M,Lowland Paca,Cuniculus paca,CUNPAC,1,1,Walking passed.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-01T00:00:00Z,45,07:25:00,M,Agouti,Dasyprocta leporina,DASLEP,3,1,Animal appears to be foraging.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-01T00:00:00Z,45,11:30:00,B,Grey-winged trumpeter,Psophia crepitans,PSOCRE,1,2,Walking passed.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-02T00:00:00Z,46,05:49:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Foraging at the center of the picture.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-02T00:00:00Z,46,17:23:00,M,Agouti,Dasyprocta leporina,DASLEP,2,1,NA
+60,CT1C,2014-09-18T00:00:00Z,2014-11-03T00:00:00Z,47,16:31:00,M,Agouti,Dasyprocta leporina,DASLEP,4,1,Foraging at the center of the picture.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-04T00:00:00Z,48,12:25:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Looking at the camera.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-07T00:00:00Z,51,15:45:00,M,Agouti,Dasyprocta leporina,DASLEP,2,1,Animal appears to be foraging.
+60,CT1C,2014-09-18T00:00:00Z,2014-11-08T00:00:00Z,52,16:17:00,M,Agouti,Dasyprocta leporina,DASLEP,1,1,Walking passed.
