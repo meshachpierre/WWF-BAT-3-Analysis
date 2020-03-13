@@ -32,15 +32,14 @@ capture.tb <- capture.tb %>%
 
 rm(factor_cols)
 
-################################SPECIES ACCUM CURVE######################################
-
 #Make dataframe with just mammals
-capture_mammals.tb <- capture.tb %>% 
+capture.tb <- capture.tb %>% 
   filter(name_order=="M")
 
+################################SPECIES ACCUM CURVE######################################
+
 #Make dataframe with species observations by day count
-spec_acc.tb <- capture_mammals.tb %>% 
-  filter(name_order != "B") %>%
+spec_acc.tb <- capture.tb %>% 
   select("date_dayno","name_sci") %>% 
   table() %>% 
   as.data.frame() %>% 
@@ -105,45 +104,32 @@ species_rai.tb <- capture.tb %>%
 #view the tb
 species_rai.tb
 
-name_order <- capture.tb %>% 
-  select(name_order, name_sci) %>% 
-  arrange(name_sci) %>% 
-  unique() %>% 
-
-species_rai.tb <- species_rai.tb %>% 
-  arrange(rai) 
-  
-  
-glimpse(species_rai.tb)
+(species_rai.tb <- species_rai.tb %>% 
+  arrange(rai)) 
 
 species_rai.tb
 species_rai.tb$rai_round <- round(species_rai.tb$rai, digits = 3)
 species_rai.tb
 
 species_rai.tb <- species_rai.tb %>% 
-  filter(name_order != "B" & name_sci != "Dasypus sp.") %>% 
   mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
   arrange(rai_round)
 
 #plot RAIs
-rai.plot <- ggplot(species_rai.tb, aes(x=name_sci, y=rai)) +
+(rai.plot <- ggplot(species_rai.tb, aes(x=name_sci, y=rai)) +
   geom_bar(stat = "identity") +
   labs(x = "Scientific name", y="RAI") +
   theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
   theme(axis.text.x = element_text(face = "italic")) +
-  theme(plot.margin=unit(c(1,1,1,1), "cm"))
+  theme(plot.margin=unit(c(1,1,1,1), "cm")))
 
-rai.plot
 
 #save rai plot
 ggsave(file="rai_plot.eps", path = "plots", plot=rai.plot, width=5, height=4)
 ggsave(file="rai_plot.png", path = "plots", plot=rai.plot, width=5, height=4)
 
-citation(package = "vegan")
-citation(package = "BiodiversityR")
-citation(package = "base")
 
-############################ BOOTSTRAP SETUP #######################################
+############################ BOOTSTRAP RAI's ####################################
 
 #Load CT setup datasheet, check if okay and sum + output total trap nights
 ct_setup.tb <- read_csv("data/ct_setup_raw.csv")
@@ -157,37 +143,32 @@ ct_remove.tb <- ct_setup.tb %>%
 
 ct_setup.tb <- ct_setup.tb %>% 
   filter(trap_nights!=0) %>% 
+  select(station,trap_nights) %>% 
+  rename("id_station" = station) %>%  
   glimpse
 
-#Make new tibble with camera stations and trap nights
-camera_stations.tb <- tibble(id_station = as.factor(ct_setup.tb$station),
-                          trap_nights = ct_setup.tb$trap_nights)
-
+ct_setup.tb$id_station <- as.factor(ct_setup.tb$id_station)
 
 #Confirm that the camera traps with zero trap nights were removed
-station_remove <- as.factor(ct_remove.tb$station)
-
 capture_2.tb <- capture.tb %>% 
   filter(id_station != "CT2A" & id_station != "CT2B" & id_station != "CT4N")
 
-rm(station_remove)
-
 #add in trap night column
-capture_2.tb <- left_join(capture_2.tb,camera_stations.tb, "id_station") %>% 
+capture_2.tb <- left_join(capture_2.tb,ct_setup.tb, "id_station") %>% 
   glimpse()
 
 #select relevant columns/variables, group by species and station, then collapse by these values
 #and spread into wide tibble with each species as a column and each CT as a row
 capture_wide.tb <- capture_2.tb %>% 
-  select(id_station, trap_nights, name_code, count_ind) %>% 
-  group_by(id_station,name_code) %>% 
+  select(id_station, trap_nights, name_sci, count_ind) %>% 
+  group_by(id_station,name_sci) %>% 
   summarise(trap_nights = unique(trap_nights),
             count_ind = (sum(count_ind)/trap_nights)) %>% 
-  spread(name_code,count_ind) %>% 
+  spread(name_sci,count_ind) %>% 
   glimpse()
 
 #Remove trap night column and make NA's into 0's
-capture_wide.tb <- capture_wide.tb[,-2]
+capture_wide.tb <- capture_wide.tb[,c(-2,-1)]
 capture_wide.tb[is.na(capture_wide.tb)] <- 0
 
 glimpse(capture_wide.tb)
@@ -205,7 +186,18 @@ boot_mean <- function(x){
   mean(reps)
 }
 
-capture_boots_ci <- sapply(capture_wide_1.tb, function(x) boot_ci(x))
-capture_boots_mean <- sapply(capture_wide_1.tb, function(x) boot_mean(x))
+#Apply functions to tibble and place into variables
+capture_boots_ci <- sapply(capture_wide.tb, function(x) boot_ci(x))
+capture_boots_mean <- sapply(capture_wide.tb, function(x) boot_mean(x))
 
-capture_boots <- (as.data.frame(rbind(capture_boots_ci, capture_boots_mean)))
+#make dataframe, then tibble)
+(capture_boots <- (as.data.frame(rbind(capture_boots_ci, capture_boots_mean))))
+values <- c("ci_l","ci_u","mean")
+capture_boots <- cbind(values,capture_boots)
+capture_boots <- as.tibble(capture_boots)
+
+
+######################## CITATIONS ##############################
+citation(package = "vegan")
+citation(package = "BiodiversityR")
+citation(package = "base")
