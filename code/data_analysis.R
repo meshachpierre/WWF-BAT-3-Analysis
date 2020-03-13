@@ -163,7 +163,7 @@ capture_wide.tb <- capture_2.tb %>%
   select(id_station, trap_nights, name_sci, count_ind) %>% 
   group_by(id_station,name_sci) %>% 
   summarise(trap_nights = unique(trap_nights),
-            count_ind = (sum(count_ind)/trap_nights)) %>% 
+            count_ind = (sum(count_ind)/trap_nights)*100) %>% 
   spread(name_sci,count_ind) %>% 
   glimpse()
 
@@ -199,11 +199,15 @@ capture_boots <- cbind(values,capture_boots)
 capture_boots_long <- melt(capture_boots, id=c("values"))
 capture_boots_long <- spread(capture_boots_long, values, value)
 
+#rearrange df
+species_rai.tb <- species_rai.tb %>% 
+  mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
+  arrange(rai_round)
+
 #plot
-pd <- position_dodge(.5)
-(rai_boots.plot <- ggplot(species_rai.tb, aes(x=name_sci, y=mean)) +
-  geom_point(stat = "identity") +
-  geom_errorbar(aes(ymin=ci_l,ymax=ci_u,position=pd),width=1.0,position=pd) +
+(rai_boots.plot <- ggplot(capture_boots_long, aes(x=variable, y=mean)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=1.0) +
   labs(x = "Scientific name", y="RAI") +
   theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
   theme(axis.text.x = element_text(face = "italic")) +
