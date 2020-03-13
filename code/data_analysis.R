@@ -36,7 +36,7 @@ rm(factor_cols)
 capture.tb <- capture.tb %>% 
   filter(name_order=="M")
 
-################################SPECIES ACCUM CURVE######################################
+################################ SPECIES ACCUM CURVE ######################################
 
 #Make dataframe with species observations by day count
 spec_acc.tb <- capture.tb %>% 
@@ -136,11 +136,6 @@ ct_setup.tb <- read_csv("data/ct_setup_raw.csv")
 glimpse(ct_setup.tb)
 
 #Some cameras with too few trap nights. Remove from dataframe
-ct_remove.tb <- ct_setup.tb %>% 
-  select(station, trap_nights) %>% 
-  filter(trap_nights==0) %>% 
-  glimpse
-
 ct_setup.tb <- ct_setup.tb %>% 
   filter(trap_nights!=0) %>% 
   select(station,trap_nights) %>% 
@@ -173,7 +168,7 @@ capture_wide.tb[is.na(capture_wide.tb)] <- 0
 
 glimpse(capture_wide.tb)
 
-#bootstrap individual columns
+#functions to bootstrap individual columns
 boot_ci <- function(x){
   reps <- numeric(1000)
   for(i in 1:1000) reps[i] <- mean(sample(x, replace = T))
@@ -186,11 +181,11 @@ boot_mean <- function(x){
   mean(reps)
 }
 
-#Apply functions to tibble and place into variables
+#Apply functions to tibble and place results into variables
 capture_boots_ci <- sapply(capture_wide.tb, function(x) boot_ci(x))
 capture_boots_mean <- sapply(capture_wide.tb, function(x) boot_mean(x))
 
-#make dataframe, then tibble)
+#make dataframe, then tibble
 (capture_boots <- (as.data.frame(rbind(capture_boots_ci, capture_boots_mean))))
 values <- c("ci_l","ci_u","mean")
 capture_boots <- cbind(values,capture_boots)
@@ -200,12 +195,16 @@ capture_boots_long <- melt(capture_boots, id=c("values"))
 capture_boots_long <- spread(capture_boots_long, values, value)
 
 #rearrange df
-species_rai.tb <- species_rai.tb %>% 
+(capture_boots_long <- capture_boots_long %>% 
+  rename("name_sci" = variable,
+         "rai" = mean) %>% 
   mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
-  arrange(rai_round)
+  arrange(rai))
+
+capture_boots_long
 
 #plot
-(rai_boots.plot <- ggplot(capture_boots_long, aes(x=variable, y=mean)) +
+(rai_boots.plot <- ggplot(capture_boots_long, aes(x=name_sci, y=rai)) +
   geom_bar(stat = "identity") +
   geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=1.0) +
   labs(x = "Scientific name", y="RAI") +
@@ -213,7 +212,12 @@ species_rai.tb <- species_rai.tb %>%
   theme(axis.text.x = element_text(face = "italic")) +
   theme(plot.margin=unit(c(1,1,1,1), "cm")))
 
+#save bootstrapped rai plot
+ggsave(file="rai_boots_plot.eps", path = "plots", plot=rai_boots.plot, width=5, height=4)
+ggsave(file="rai_boots_plot.png", path = "plots", plot=rai_boots.plot, width=5, height=4)
+
 ######################## CITATIONS ##############################
+
 citation(package = "vegan")
 citation(package = "BiodiversityR")
 citation(package = "base")
