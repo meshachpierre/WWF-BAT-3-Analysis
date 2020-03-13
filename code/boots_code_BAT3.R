@@ -1,4 +1,4 @@
-BAT3<-read.table('BAT3.txt',header=T)
+BAT3<-read.table('data/BAT3.txt',header=T)
 fox<-BAT3$Cthous
 crax<-BAT3$Calector
 labba<-BAT3$Cpaca

@@ -88,7 +88,7 @@ glimpse(ct_setup.tb)
 
 #Some cameras with too few trap nights. Remove from dataframe
 ct_setup.tb <- ct_setup.tb %>% 
-  filter(trap_nights>30) %>% 
+  filter(trap_nights!=0) %>% 
   glimpse
 
 #output total trap nights to a variable trapnights.var
@@ -142,3 +142,70 @@ ggsave(file="rai_plot.png", path = "plots", plot=rai.plot, width=5, height=4)
 citation(package = "vegan")
 citation(package = "BiodiversityR")
 citation(package = "base")
+
+############################ BOOTSTRAP SETUP #######################################
+
+#Load CT setup datasheet, check if okay and sum + output total trap nights
+ct_setup.tb <- read_csv("data/ct_setup_raw.csv")
+glimpse(ct_setup.tb)
+
+#Some cameras with too few trap nights. Remove from dataframe
+ct_remove.tb <- ct_setup.tb %>% 
+  select(station, trap_nights) %>% 
+  filter(trap_nights==0) %>% 
+  glimpse
+
+ct_setup.tb <- ct_setup.tb %>% 
+  filter(trap_nights!=0) %>% 
+  glimpse
+
+#Make new tibble with camera stations and trap nights
+camera_stations.tb <- tibble(id_station = as.factor(ct_setup.tb$station),
+                          trap_nights = ct_setup.tb$trap_nights)
+
+
+#Confirm that the camera traps with zero trap nights were removed
+station_remove <- as.factor(ct_remove.tb$station)
+
+capture_2.tb <- capture.tb %>% 
+  filter(id_station != "CT2A" & id_station != "CT2B" & id_station != "CT4N")
+
+rm(station_remove)
+
+#add in trap night column
+capture_2.tb <- left_join(capture_2.tb,camera_stations.tb, "id_station") %>% 
+  glimpse()
+
+#select relevant columns/variables, group by species and station, then collapse by these values
+#and spread into wide tibble with each species as a column and each CT as a row
+capture_wide.tb <- capture_2.tb %>% 
+  select(id_station, trap_nights, name_code, count_ind) %>% 
+  group_by(id_station,name_code) %>% 
+  summarise(trap_nights = unique(trap_nights),
+            count_ind = (sum(count_ind)/trap_nights)) %>% 
+  spread(name_code,count_ind) %>% 
+  glimpse()
+
+#Remove trap night column and make NA's into 0's
+capture_wide.tb <- capture_wide.tb[,-2]
+capture_wide.tb[is.na(capture_wide.tb)] <- 0
+
+glimpse(capture_wide.tb)
+
+#bootstrap individual columns
+boot_ci <- function(x){
+  reps <- numeric(1000)
+  for(i in 1:1000) reps[i] <- mean(sample(x, replace = T))
+  quantile(reps, c(.025, .975))
+}
+
+boot_mean <- function(x){
+  reps <- numeric(1000)
+  for(i in 1:1000) reps[i] <- mean(sample(x, replace = T))
+  mean(reps)
+}
+
+capture_boots_ci <- sapply(capture_wide_1.tb, function(x) boot_ci(x))
+capture_boots_mean <- sapply(capture_wide_1.tb, function(x) boot_mean(x))
+
+capture_boots <- (as.data.frame(rbind(capture_boots_ci, capture_boots_mean)))
