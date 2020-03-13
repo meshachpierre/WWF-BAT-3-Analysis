@@ -194,8 +194,20 @@ capture_boots_mean <- sapply(capture_wide.tb, function(x) boot_mean(x))
 (capture_boots <- (as.data.frame(rbind(capture_boots_ci, capture_boots_mean))))
 values <- c("ci_l","ci_u","mean")
 capture_boots <- cbind(values,capture_boots)
-capture_boots <- as.tibble(capture_boots)
+(capture_boots <- as.tibble(capture_boots))
 
+capture_boots_long <- melt(capture_boots, id=c("values"))
+capture_boots_long <- spread(capture_boots_long, values, value)
+
+#plot
+pd <- position_dodge(.5)
+(rai_boots.plot <- ggplot(species_rai.tb, aes(x=name_sci, y=mean)) +
+  geom_point(stat = "identity") +
+  geom_errorbar(aes(ymin=ci_l,ymax=ci_u,position=pd),width=1.0,position=pd) +
+  labs(x = "Scientific name", y="RAI") +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
+  theme(axis.text.x = element_text(face = "italic")) +
+  theme(plot.margin=unit(c(1,1,1,1), "cm")))
 
 ######################## CITATIONS ##############################
 citation(package = "vegan")
