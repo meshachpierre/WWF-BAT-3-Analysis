@@ -206,7 +206,7 @@ capture_boots_long
 #plot
 (rai_boots.plot <- ggplot(capture_boots_long, aes(x=name_sci, y=rai)) +
   geom_bar(stat = "identity") +
-  geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=1.0) +
+  geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5) +
   labs(x = "Scientific name", y="RAI") +
   theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
   theme(axis.text.x = element_text(face = "italic")) +
