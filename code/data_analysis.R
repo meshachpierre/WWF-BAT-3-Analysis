@@ -212,7 +212,7 @@ capture_boots_long
 write_csv(capture_boots_long,path="data/rai_result_both_(boots-reg).csv")
 
 #plot
-(rai_boots.plot <- ggplot(capture_boots_long, aes(x=name_sci, y=rai)) +
+(rai_boots.plot <- ggplot(capture_boots_long, aes(x=name_sci, y=rai_boot)) +
   geom_bar(stat = "identity") +
   geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5) +
   labs(x = "Scientific name", y="RAI") +
