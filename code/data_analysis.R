@@ -198,8 +198,8 @@ capture_boots_long <- spread(capture_boots_long, values, value)
 (capture_boots_long <- capture_boots_long %>% 
   rename("name_sci" = variable,
          "rai_boot" = mean) %>% 
-  mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
-  arrange(rai))
+  mutate(name_sci = fct_reorder(name_sci, desc(rai_boot))) %>% 
+  arrange(rai_boot))
 
 capture_boots_long
 
