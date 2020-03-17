@@ -1,36 +1,36 @@
-Station,Camera,N,W,Date Start,Date End,Date_END2,Time Set Up (crawl time),Effort,Trail_Type,Human_Use,Human_Freq,Trail_Width,"Distance [camera, trail] (m)",Canopy Cover (%),Description of habitat,Description of location
-BSLL35,DTL09,4.76494,58.12465,26-02-16,Poor function?,27-02-16,9:23:00,1,New_Trail,None,Zero,0.2,3,90,"sloped, thick leaf litter, small and medium trees",animal trail
-BSLL14,DTL07,4.74808,58.07346,21-02-16,20-04-16,,10:55:00,59,New_Trail,None,Zero,0.15,4.5,50,"flat land (slope=0), mixed forest, clear understory, small and medium trees","Soft, loamy soil, little leaf litter, several animal trails"
-BSLL2011,DTL06,4.72915,57.98182,28-02-16,16-04-16,,16:09:00,48,New_Trail,None,Zero,0.2,3,98,Small and medium trees thin leaf litter flat grounds. ,Wildlife trail
-BSLL302,DTL05,4.76656,57.98819,28-02-16,15-04-16,,11:30:00,47,New_Trail,None,Zero,0.15,4,95,"Small and medium trees, thin leaf, litter, flat, uneven terrain.",Signs of peccary and armadillo feeding
-BSLL43,DTL04,4.78325,58.08909,27-02-16,18-04-16,,9:31:00,51,New_Trail,None,Zero,0.2,2.5,89,"thick leaf litter, flat (slope=0), small and medium trees","Animal trail, fallen log"
-BSLL46,DTL03,4.78213,58.14264,26-02-16,18-04-16,,12:47:00,52,New_Trail,None,Zero,0.2,4,96,"thick leaf litter, flat (slope=0), small and medium trees, few large trees",animal trail
-BSLL16,DTL02,4.74809,58.10722,22-02-16,20-04-16,,12:21:00,58,New_Trail,None,Zero,0.15,4,95,"really thick leaf litter, lots of medium trees, few small trees, flat (slope=0)","animal trails, mixed forest, trees relatively spaced"
-BSLL3011,DD9,4.76622,58.00713,28-02-16,NA (No SD),,10:04:00,0,New_Trail,None,Zero,0.2,3,0,At the edge of a burnt mixed forest. Small & medium trees and many ferns in the burnt area,open area with animal tracks
-BSLL40,DD6/Card: UT1B,4.78396,58.02960,23-02-16,15-04-16,NO RECORDS IN PHOTOS,17:31:00,0,Other,Motorized,Low,0.25,5.5,0,"Lots of razor grass, small amuont of leaf litter, small plants","surrounded by trees, place used to obtain sand for building the road"
-BSLL311,DD3/card UT6A,4.76533,58.03967,24-02-16,15-04-16,,17:47:00,51,Road,Motorized,High,7,3.5,10,Small and medium trees,on active logging trail
-BSLL34,52496,4.76593,58.10717,25-02-16,17-04-16,,17:23:00,52,New_Trail,None,Zero,0.2,3.5,95,"Thick leaf litter, sandy patches, medium trees, few small and large trees","animal trails, flat (slope=0)"
-BSLL10,52328,4.74787,58.00131,23-02-16,15-04-16,,14:27:00,52,Road,Motorized,Medium,7,5,0,"Road side brush, slope=0, mixed fores, logged, low impact","Road side, about 70km from end of road, some old logging roads nearby"
-BSLL12,52327,4.74816,58.03758,20-02-16,16-04-16,,13:13:00,0,New_Trail,None,Zero,0.12,3.5,98,"mixed trees, no dense undergrowth, gentle slope, boramali, cacarali, wamara",Close to animal trail
-BSLL12B,52327,4.74819,58.03802,20-02-16,16-04-16,,12:45:00,56,New_Trail,None,Zero,4.5,2,98,"old logging road, gentle slope, mixed forest",Old logging road
-BSLL33b*,52253,4.76551,58.08974,23-02-16,Batteries,12-04-16,14:46:00,49,New_Trail,None,Zero,0.2,4.5,98,"Thick leaf litter, medium trees, few small and large trees, ""bumpy"" surface",two animal trails
-BSLL42*,52246,4.78361,58.07140,27-02-16,19-03-16,,9:31:00,21,New_Trail,None,Zero,0.2,3,95,"flat (slope=0), small amount of leaf litter, small and medium trees, few large trees","Animal trail, burrow"
-BSLL1011,52049,4.74692,57.98331,28-02-16,16-04-16,,14:38:00,48,New_Trail,None,Zero,0.15,4.5,98,"Medium trees, drain area, majority small trees","Wildlife trail, medium leaf litter (4-5 inches)"
-BSLL45*,51971,4.78315,58.12447,26-02-16,Batteries,17-04-16,14:46:00,51,New_Trail,None,Zero,0.2,4,98,"Sandy area, thin leaf litter layer, small and medium trees, flat (slope=0)",Animal trails
-BSLL321,51743,4.76538,58.05481,23-02-16,Batteries,14-04-16,11:28:00,51,Road,None,Zero,4,3,40,"medium and large trees, flat (slope=0); pools of water on trail",old logging road
-BSLL44,51742,4.78315,58.10736,26-02-16,18-04-16,,16:17:00,52,New_Trail,None,Zero,0.2,4,98,"sloped, thick leaf litter, small and medium trees, trees evenly spread",Many animal trails
-BSLL24,51694,4.73018,58.05171,24-02-16,Batteries,14-04-16,10:45:00,50,New_Trail,None,Zero,0.15,3,97,"sloped, small amount of leaf litter, small and medium trees, palm trees","upslope, wildlife trail"
-BSLL41,51666,4.78317,58.05318,27-02-16,18-04-16,,12:31:00,51,New_Trail,None,Zero,0.2,2.5,90,"""bumpy"" land, little to no leaf litter, small trees, few medium and large trees",
-BSLL26,51661,4.73051,58.08756,22-02-16,Batteries,16-03-16,9:11:00,23,New_Trail,None,Zero,0.15,4.5,96,"Thick leaf litter, small and medium trees, no slope, mixed forest",multpile animal trails connecting
-BSLL15,51619,4.74763,58.08980,22-02-16,20-04-16,,10:57:00,58,New_Trail,None,Zero,0.2,4,90,"Thick leaf litter, small and medium trees, very few large trees, flat (slope=0)","old logging road, fallen trees, small trees on road, animal trails crossing road"
-BSLL13*,51590,4.74817,58.05556,21-02-16,Batteries,05-04-16,8:56:00,44,New_Trail,None,Zero,0.15,4,98,"clear understory, small & medium trees, slope=0","Soft, loamy soil, little leaf litter, several animal trails"
-BSLL231*,51554,4.73176,58.03273,24-02-16,Batteries,16-04-16,12:32:00,52,New_Trail,None,Zero,0.2,4,10,"gently sloped, going to swamp, small and medium trees, little leaf litter, palm trees",Wildlife trail
-BSLL33,51535,4.76517,58.07122,25-02-16,17-04-16,,15:40:00,52,New_Trail,None,Zero,0.2,4.5,90,"small, medium and large trees. Near creek in swampy area",Next to black water creek on a gentle slope
-BSLL17,51497,4.74669,58.12471,22-02-16,Batteries,17-04-16,14:42:00,55,New_Trail,None,Zero,0.2,3.5,97,"thick leaf litter, short cookrit swamp with dry canals","animal trail, mixed fores, 2 trails, up slope"
-BSLL21,51495,4.73157,58.01458,24-02-16,Batteries,18-04-16,14:19:00,54,New_Trail,None,Zero,0.2,2,95,"thick leaf litter, flat (slope=0), small and medium trees, few large trees, relatively spaced trees",several wildlife trails
-BSLL47*,51467,4.78361,58.01503,27-02-16,14-04-16,,16:19:00,47,New_Trail,None,Zero,0.2,4.5,95,"Bumpy land, loamy soil, little to no leaf letter, Small & Medium trees",Animal trails
-BSLL36,51486,4.76466,58.14286,26-02-16,17-04-16,,11:14:00,51,New_Trail,None,Zero,0.2,4,95,"sloped, ankle deep leaf litter, small and medium trees","fallen logs, animal trails"
-BSLL25*,51471,4.73044,58.06966,21-02-16,Batteries,17-04-16,12:47:00,56,New_Trail,None,Zero,0.15,MD,95,"small and medium trees, flat (slope=0), mixed trees, yarola","Animal tracks, medium to little leaf litter"
-BSLL11*,51322,4.74789,58.02020,20-02-16,"!batteries - shut down on ""25 mar 2010""",13-04-16,10:10:00,53,New_Trail,None,Zero,0.12,4,90,"Seasonally flooded, kokarite palm, toro palm, swamp, tall trees",Trail leading up to animal bathing spot
-BSLL20,51181,4.73076,58.00006,23-02-16,15-04-16,,13:40:00,52,Trail,None,Zero,0.2,2.5,80,"Wildlife trail next to old logging road, thin leaf litter, ","small and medium trees, fallen log next to camera"
-BSLL30,50864,4.76654,58.02493,23-02-16,STOLEN,,16:55:00,0,Road,Motorized,Medium,6,3.5,0,"Road side brush, slope=0, mixed fores, logged, low impact, lots of razor grass",Just before road block
+station,camera,lat,long,date_start,date_end,date_end2,time_set,trap_nights,Trail_Type,Human_Use,Human_Freq,Trail_Width,"Distance [camera, trail] (m)",Canopy Cover (%),Description of habitat,Description of location
+BSLL35,DTL09,4.76494,-58.12465,26/02/2016,Poor function?,27/02/2016,09:23:00,1,New_Trail,None,Zero,0.2,3,90,"sloped, thick leaf litter, small and medium trees",animal trail
+BSLL14,DTL07,4.74808,-58.07346,21/02/2016,20/04/2016,,10:55:00,59,New_Trail,None,Zero,0.15,4.5,50,"flat land (slope=0), mixed forest, clear understory, small and medium trees","Soft, loamy soil, little leaf litter, several animal trails"
+BSLL2011,DTL06,4.72915,-57.98182,28/02/2016,16/04/2016,,16:09:00,48,New_Trail,None,Zero,0.2,3,98,Small and medium trees thin leaf litter flat grounds. ,Wildlife trail
+BSLL302,DTL05,4.76656,-57.98819,28/02/2016,15/04/2016,,11:30:00,47,New_Trail,None,Zero,0.15,4,95,"Small and medium trees, thin leaf, litter, flat, uneven terrain.",Signs of peccary and armadillo feeding
+BSLL43,DTL04,4.78325,-58.08909,27/02/2016,18/04/2016,,09:31:00,51,New_Trail,None,Zero,0.2,2.5,89,"thick leaf litter, flat (slope=0), small and medium trees","Animal trail, fallen log"
+BSLL46,DTL03,4.78213,-58.14264,26/02/2016,18/04/2016,,12:47:00,52,New_Trail,None,Zero,0.2,4,96,"thick leaf litter, flat (slope=0), small and medium trees, few large trees",animal trail
+BSLL16,DTL02,4.74809,-58.10722,22/02/2016,20/04/2016,,12:21:00,58,New_Trail,None,Zero,0.15,4,95,"really thick leaf litter, lots of medium trees, few small trees, flat (slope=0)","animal trails, mixed forest, trees relatively spaced"
+BSLL3011,DD9,4.76622,-58.00713,28/02/2016,NA (No SD),,10:04:00,0,New_Trail,None,Zero,0.2,3,0,At the edge of a burnt mixed forest. Small & medium trees and many ferns in the burnt area,open area with animal tracks
+BSLL40,DD6/Card: UT1B,4.78396,-58.0296,23/02/2016,15/04/2016,NO RECORDS IN PHOTOS,17:31:00,0,Other,Motorized,Low,0.25,5.5,0,"Lots of razor grass, small amuont of leaf litter, small plants","surrounded by trees, place used to obtain sand for building the road"
+BSLL311,DD3/card UT6A,4.76533,-58.03967,24/02/2016,15/04/2016,,17:47:00,51,Road,Motorized,High,7,3.5,10,Small and medium trees,on active logging trail
+BSLL34,52496,4.76593,-58.10717,25/02/2016,17/04/2016,,17:23:00,52,New_Trail,None,Zero,0.2,3.5,95,"Thick leaf litter, sandy patches, medium trees, few small and large trees","animal trails, flat (slope=0)"
+BSLL10,52328,4.74787,-58.00131,23/02/2016,15/04/2016,,14:27:00,52,Road,Motorized,Medium,7,5,0,"Road side brush, slope=0, mixed fores, logged, low impact","Road side, about 70km from end of road, some old logging roads nearby"
+BSLL12,52327,4.74816,-58.03758,20/02/2016,16/04/2016,,13:13:00,0,New_Trail,None,Zero,0.12,3.5,98,"mixed trees, no dense undergrowth, gentle slope, boramali, cacarali, wamara",Close to animal trail
+BSLL12B,52327,4.74819,-58.03802,20/02/2016,16/04/2016,,12:45:00,56,New_Trail,None,Zero,4.5,2,98,"old logging road, gentle slope, mixed forest",Old logging road
+BSLL33b,52253,4.76551,-58.08974,23/02/2016,Batteries,12/04/2016,14:46:00,49,New_Trail,None,Zero,0.2,4.5,98,"Thick leaf litter, medium trees, few small and large trees, ""bumpy"" surface",two animal trails
+BSLL42,52246,4.78361,-58.0714,27/02/2016,19/03/2016,,09:31:00,21,New_Trail,None,Zero,0.2,3,95,"flat (slope=0), small amount of leaf litter, small and medium trees, few large trees","Animal trail, burrow"
+BSLL1011,52049,4.74692,-57.98331,28/02/2016,16/04/2016,,14:38:00,48,New_Trail,None,Zero,0.15,4.5,98,"Medium trees, drain area, majority small trees","Wildlife trail, medium leaf litter (4-5 inches)"
+BSLL45,51971,4.78315,-58.12447,26/02/2016,Batteries,17/04/2016,14:46:00,51,New_Trail,None,Zero,0.2,4,98,"Sandy area, thin leaf litter layer, small and medium trees, flat (slope=0)",Animal trails
+BSLL321,51743,4.76538,-58.05481,23/02/2016,Batteries,14/04/2016,11:28:00,51,Road,None,Zero,4,3,40,"medium and large trees, flat (slope=0); pools of water on trail",old logging road
+BSLL44,51742,4.78315,-58.10736,26/02/2016,18/04/2016,,16:17:00,52,New_Trail,None,Zero,0.2,4,98,"sloped, thick leaf litter, small and medium trees, trees evenly spread",Many animal trails
+BSLL24,51694,4.73018,-58.05171,24/02/2016,Batteries,14/04/2016,10:45:00,50,New_Trail,None,Zero,0.15,3,97,"sloped, small amount of leaf litter, small and medium trees, palm trees","upslope, wildlife trail"
+BSLL41,51666,4.78317,-58.05318,27/02/2016,18/04/2016,,12:31:00,51,New_Trail,None,Zero,0.2,2.5,90,"""bumpy"" land, little to no leaf litter, small trees, few medium and large trees",
+BSLL26,51661,4.73051,-58.08756,22/02/2016,Batteries,16/03/2016,09:11:00,23,New_Trail,None,Zero,0.15,4.5,96,"Thick leaf litter, small and medium trees, no slope, mixed forest",multpile animal trails connecting
+BSLL15,51619,4.74763,-58.0898,22/02/2016,20/04/2016,,10:57:00,58,New_Trail,None,Zero,0.2,4,90,"Thick leaf litter, small and medium trees, very few large trees, flat (slope=0)","old logging road, fallen trees, small trees on road, animal trails crossing road"
+BSLL13,51590,4.74817,-58.05556,21/02/2016,Batteries,05/04/2016,08:56:00,44,New_Trail,None,Zero,0.15,4,98,"clear understory, small & medium trees, slope=0","Soft, loamy soil, little leaf litter, several animal trails"
+BSLL231,51554,4.73176,-58.03273,24/02/2016,Batteries,16/04/2016,12:32:00,52,New_Trail,None,Zero,0.2,4,10,"gently sloped, going to swamp, small and medium trees, little leaf litter, palm trees",Wildlife trail
+BSLL33,51535,4.76517,-58.07122,25/02/2016,17/04/2016,,15:40:00,52,New_Trail,None,Zero,0.2,4.5,90,"small, medium and large trees. Near creek in swampy area",Next to black water creek on a gentle slope
+BSLL17,51497,4.74669,-58.12471,22/02/2016,Batteries,17/04/2016,14:42:00,55,New_Trail,None,Zero,0.2,3.5,97,"thick leaf litter, short cookrit swamp with dry canals","animal trail, mixed fores, 2 trails, up slope"
+BSLL21,51495,4.73157,-58.01458,24/02/2016,Batteries,18/04/2016,14:19:00,54,New_Trail,None,Zero,0.2,2,95,"thick leaf litter, flat (slope=0), small and medium trees, few large trees, relatively spaced trees",several wildlife trails
+BSLL47,51467,4.78361,-58.01503,27/02/2016,14/04/2016,,16:19:00,47,New_Trail,None,Zero,0.2,4.5,95,"Bumpy land, loamy soil, little to no leaf letter, Small & Medium trees",Animal trails
+BSLL36,51486,4.76466,-58.14286,26/02/2016,17/04/2016,,11:14:00,51,New_Trail,None,Zero,0.2,4,95,"sloped, ankle deep leaf litter, small and medium trees","fallen logs, animal trails"
+BSLL25,51471,4.73044,-58.06966,21/02/2016,Batteries,17/04/2016,12:47:00,56,New_Trail,None,Zero,0.15,MD,95,"small and medium trees, flat (slope=0), mixed trees, yarola","Animal tracks, medium to little leaf litter"
+BSLL11,51322,4.74789,-58.0202,20/02/2016,"!batteries - shut down on ""25 mar 2010""",13/04/2016,10:10:00,53,New_Trail,None,Zero,0.12,4,90,"Seasonally flooded, kokarite palm, toro palm, swamp, tall trees",Trail leading up to animal bathing spot
+BSLL20,51181,4.73076,-58.00006,23/02/2016,15/04/2016,,13:40:00,52,Trail,None,Zero,0.2,2.5,80,"Wildlife trail next to old logging road, thin leaf litter, ","small and medium trees, fallen log next to camera"
+BSLL30,50864,4.76654,-58.02493,23/02/2016,STOLEN,,16:55:00,0,Road,Motorized,Medium,6,3.5,0,"Road side brush, slope=0, mixed fores, logged, low impact, lots of razor grass",Just before road block

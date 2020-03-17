@@ -32,12 +32,12 @@ capture_raw.tb <- capture_raw.tb %>%
 
 # Rename columns to more convenient titles
 capture_raw.tb <- capture_raw.tb %>% 
-  rename("id_station" = Station, 
-         "id_ct" = `CT#`,
-         "id_pic" = `Picture ID`
-         "date_set" = `date started`, 
-         "date_capt" = `date captured`, 
-         "date_dayno" = DAY, 
+  rename("id_station" = station, 
+         "id_ct" = `ct#`,
+         "id_pic" = `picture id`,
+         "date_set" = `date set`, 
+         "date_capt" = `date_corr`, 
+         "date_dayno" = day, 
          "name_order" = class, 
          "name_com" = `common name`, 
          "name_sci" = `scientific name`, 
@@ -46,12 +46,16 @@ capture_raw.tb <- capture_raw.tb %>%
   ) %>% 
   glimpse()
 
+#Select only columns we need
+capture_raw.tb <- capture_raw.tb %>% 
+  select(id_station, id_pic, date_dayno, name_order, name_com, name_sci, count_pic, count_ind) %>% 
+  glimpse()
+
+
 # Parse date and time (lines 43 & 44) and change factor columns to factors (lines 40, 45)
-factor_cols <- c(names(capture_raw.tb[,c(1,2,7,8,9)]))
+factor_cols <- c(names(capture_raw.tb[,c(1,4,5,6)]))
 
 capture_raw.tb <- capture_raw.tb %>% 
-  mutate(date_set=parse_date_time(date_set,"dmy")) %>% 
-  mutate(date_capt=parse_date_time(date_capt,"dmy")) %>% 
   mutate_each_(funs(factor(.)), factor_cols) %>% 
   glimpse()
 
@@ -61,11 +65,6 @@ summary(capture_raw.tb[factor_cols], maxsum = 30)
 capture_raw.tb %>% 
   map_df(function(x) sum(is.na(x))) %>% 
   glimpse()
-
-# See date ranges for date columns
-capture_raw.tb %>% 
-  summarise(dateset_min = min(date_set), dateset_max = max(date_set),  
-            datecapt_min = min(date_capt), datecapt_max = max(date_capt))
 
 # Make column with sci name codes (for easy coding) then reorder to logical grouping:
 # CT ID's, Dates + Times, Names, Counts, Comments
@@ -77,11 +76,11 @@ capture_raw.tb <- capture_raw.tb %>%
 
 # Reorder dataframe
 glimpse(capture_raw.tb)
-capture_raw.tb <- capture_raw.tb[, c(1:9, 13, 10, 11, 12)]
+capture_raw.tb <- capture_raw.tb[, c(1:6,9,7,8)]
 glimpse(capture_raw.tb)
 
 ################################## CT POLYGON DATASET ###################################
 
 ######################################## EXPORT #########################################
 #export capture dataset
-write_csv(capture_raw.tb, path="data/capture_clean.csv")
+write_csv(capture_raw.tb, path="data/capture_clean_bsl.csv")

@@ -1,0 +1,380 @@
+id_station,id_pic,date_dayno,name_order,name_com,name_sci,name_code,count_pic,count_ind
+BSLL10,B2508474,3,M,Savannah Fox,Cerdocyon thous,CERTHO,2,1
+BSLL10,C0772615,14,M,Savannah Fox,Cerdocyon thous,CERTHO,2,2
+BSLL10,C0976838,16,M,Savannah Fox,Cerdocyon thous,CERTHO,1,2
+BSLL10,C1584981,22,M,Savannah Fox,Cerdocyon thous,CERTHO,1,2
+BSLL10,C1602860,23,M,Savannah Fox,Cerdocyon thous,CERTHO,1,2
+BSLL10,C2019612,27,M,Savannah Fox,Cerdocyon thous,CERTHO,1,2
+BSLL10,C2676977,33,M,Savannah Fox,Cerdocyon thous,CERTHO,1,2
+BSLL10,D0218755,40,M,Savannah Fox,Cerdocyon thous,CERTHO,3,2
+BSLL10,D0323080,41,M,Savannah Fox,Cerdocyon thous,CERTHO,1,1
+BSLL10,D0480963,42,M,Savannah Fox,Cerdocyon thous,CERTHO,1,2
+BSLL10,D0425050,42,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL10,D0624523,44,M,Agouti,Dasyprocta leporina,DASLEP,3,1
+BSLL10,D0929382,47,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL10,D1429440,52,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL10,C0859991,15,M,Tayra,Eira barbara,EIRBAR,1,1
+BSLL10,B2573484,3,M,Margay,Leopardus sp,LEOSP,1,1
+BSLL10,C0722154,14,M,Jaguar,Panthera onca,PANONC,1,1
+BSLL10,C0725017,14,M,Jaguar,Panthera onca,PANONC,1,1
+BSLL10,D0515545,43,M,Jaguar,Panthera onca,PANONC,1,1
+BSLL1011,NA,24,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL1011,NA,34,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL1011,NA,1,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL1011,NA,3,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL1011,NA,9,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL1011,NA,13,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL1011,NA,33,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL1011,NA,6,M,Tayra,Eira barbara,EIRBAR,1,1
+BSLL1011,NA,10,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL1011,NA,20,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL1011,NA,47,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL11,B0442916,27,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,B0781741,29,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,B1059191,31,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,B1244678,32,M,Labba,Cuniculus paca,CUNPAC,2,2
+BSLL11,B1265004,31,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,B2374323,40,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,C0861124,49,M,Labba,Cuniculus paca,CUNPAC,2,1
+BSLL11,C1050138,49,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,C1050138,49,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,C1656449,53,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,C1656449,52,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,C1753070,52,M,Labba,Cuniculus paca,CUNPAC,1,2
+BSLL11,C2577716,59,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL11,B2401299,40,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL11,B2538077,40,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL11,B2635848,40,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL11,C0815246,48,M,Tayra,Eira barbara,EIRBAR,1,1
+BSLL11,B1870216,36,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL12B,D0583804,46,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL12B,D1204232,53,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL12B,C0146703,11,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL12B,C1743291,27,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL12B,C1828550,28,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL12B,C2734472,37,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL12B,D0647295,47,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL12B,D0930869,50,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL12B,C0676498,16,M,Armadillo,Dasypus sp.,DASSP.,2,1
+BSLL12B,C1782359,27,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL12B,C2123866,31,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL12B,C2361310,33,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL12B,C2642269,36,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL12B,D0956909,50,M,Giant Anteater,Myrmecophaga tridactyla,MYRTRI,2,1
+BSLL12B,D1531182,56,M,Coati,Nasua nasua,NASNAS,1,1
+BSLL12B,B2337164,4,M,Tapir,Tapirus terrestris,TAPTER,3,2
+BSLL13,D1341395,15,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL13,D1626899,16,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL13,D2121634,20,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL14,Cdy00045,45,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL14,Cdy00026,6,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL14,Cdy00036,14,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL14,Cdy00040,22,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL14,Cdy00031,11,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL14,Cdy00037,18,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL14,Cdy00043,43,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL14,Cdy00046,45,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL14,Cdy00049,54,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL14,Cdy00041,25,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL14,Cdy00060,55,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
+BSLL14,Cdy00032,12,M,Tapir,Tapirus terrestris,TAPTER,3,1
+BSLL14,Cdy00042,41,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL15,D1229847,50,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL15,C0434027,11,M,Tayra,Eira barbara,EIRBAR,2,1
+BSLL15,C1465833,21,M,Bush deer,Mazama sp.,MAZSP.,5,1
+BSLL15,D1267092,50,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL15,B2784529,5,M,Giant Armadillo,Priodontes maximus,PRIMAX,1,1
+BSLL15,C0621807,13,M,Tapir,Tapirus terrestris,TAPTER,9,1
+BSLL17,C0271289,9,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL17,C0618243,13,M,Labba,Cuniculus paca,CUNPAC,2,1
+BSLL17,C1913740,26,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL17,C1920071,26,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL17,C2971947,36,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL17,D0418438,42,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL17,D0581875,43,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL17,D0773042,45,M,Labba,Cuniculus paca,CUNPAC,2,2
+BSLL17,D1077874,48,M,Labba,Cuniculus paca,CUNPAC,1,2
+BSLL17,C1434277,21,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL17,C1663773,23,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL17,D1654120,54,M,Bush deer,Mazama sp.,MAZSP.,10,1
+BSLL20,C0673148,13,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL20,C1928108,26,M,Bush deer,Mazama sp.,MAZSP.,11,1
+BSLL20,C2662769,33,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL20,D1324545,51,M,White-lipped peccary,Tayassu pecari,TAYPEC,2,2
+BSLL2011,Cdy00030,15,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL2011,Cdy00033,42,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL2011,Cdy00033,42,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL2011,Cdy00036,51,M,Coati,Nasua nasua,NASNAS,1,2
+BSLL21,C1108867,16,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL21,B2942633,5,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL21,C0123678,6,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL21,C0234093,7,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL21,C0653682,11,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL21,C1133666,16,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL21,C1826809,23,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL21,C2953935,34,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL21,C1608901,21,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL21,C1614048,21,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL21,C0108561,6,M,Bush deer,Mazama sp.,MAZSP.,4,1
+BSLL21,C1027123,15,M,Bush deer,Mazama sp.,MAZSP.,4,1
+BSLL21,C2941876,34,M,Bush deer,Mazama sp.,MAZSP.,6,1
+BSLL21,D0528102,41,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL21,D0650408,42,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL21,D1437670,50,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL21,B2946867,5,M,Collared Peccary,Pecari tajacu,PECTAJ,3,1
+BSLL21,B2526525,1,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL21,C0972346,14,M,Tapir,Tapirus terrestris,TAPTER,8,1
+BSLL21,D1860772,54,M,White-lipped peccary,Tayassu pecari,TAYPEC,1,3
+BSLL231,F0117091,29,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL231,F0220459,30,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL231,E2339223,20,M,Tayra,Eira barbara,EIRBAR,1,1
+BSLL231,E1516890,12,M,Collared Peccary,Pecari tajacu,PECTAJ,3,1
+BSLL231,E1736334,14,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL24,D1342106,49,M,Agouti,Dasyprocta leporina,DASLEP,4,2
+BSLL24,B2905074,5,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL24,C1134598,16,M,Giant Anteater,Myrmecophaga tridactyla,MYRTRI,1,1
+BSLL24,C1636648,21,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL24,C1636648,31,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL25,D2306990,7,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL25,D2727586,9,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL25,E0106894,11,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL25,E0421758,13,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL25,F0213937,28,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL25,E2579628,27,M,Margay,Leopardus wiedii,LEOWIE,1,1
+BSLL25,E2583787,26,M,Margay,Leopardus wiedii,LEOWIE,1,1
+BSLL25,E0635853,14,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL25,E2439080,27,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL25,E2743559,26,M,Puma,Puma concolor,PUMCON,2,1
+BSLL25,E1629901,21,M,Tapir,Tapirus terrestris,TAPTER,3,1
+BSLL25,E0730557,14,M,White-lipped peccary,Tayassu pecari,TAYPEC,1,1
+BSLL26,C0451786,11,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL26,B2678298,4,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL26,C0220402,9,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL26,C0382177,10,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL26,C0421146,11,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL26,C1302230,20,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL26,C1508278,22,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL26,B2914180,7,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL26,C0829042,15,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL26,C1356090,20,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL26,C1425880,21,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL26,C0371994,10,M,Tapir,Tapirus terrestris,TAPTER,4,1
+BSLL302,Cdy00046,36,M,Agouti,Dasyprocta leporina,DASLEP,3,1
+BSLL302,Cdy00047,36,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL302,Cdy00051,43,M,Agouti,Dasyprocta leporina,DASLEP,1,2
+BSLL302,Cdy00032,10,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
+BSLL302,Cdy00036,11,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
+BSLL302,Cdy00038,12,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL302,Cdy00039,13,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
+BSLL302,Cdy00045,28,M,Collared Peccary,Pecari tajacu,PECTAJ,1,3
+BSLL302,Cdy00050,40,M,Giant Armadillo,Priodontes maximus,PRIMAX,1,1
+BSLL311,PICT0092,3,M,Savannah Fox,Cerdocyon thous,CERTHO,6,1
+BSLL311,PICT0100,4,M,Savannah Fox,Cerdocyon thous,CERTHO,3,1
+BSLL311,PICT0190,13,M,Savannah Fox,Cerdocyon thous,CERTHO,3,1
+BSLL311,PICT0415,42,M,Labba,Cuniculus paca,CUNPAC,3,1
+BSLL311,PICT0127,7,M,Agouti,Dasyprocta leporina,DASLEP,3,1
+BSLL311,PICT0124,7,M,Ocelot,Leopardus pardalis,LEOPAR,3,1
+BSLL311,PICT0133,8,M,Ocelot,Leopardus pardalis,LEOPAR,3,1
+BSLL311,PICT0232,16,M,Ocelot,Leopardus pardalis,LEOPAR,3,1
+BSLL311,PICT0433,45,M,Ocelot,Leopardus pardalis,LEOPAR,3,1
+BSLL311,PICT0085,2,M,Puma,Puma concolor,PUMCON,3,1
+BSLL321,B2425056,2,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,B2659876,4,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,B2960054,7,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,C1646715,23,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,C2229385,29,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL321,C2646750,33,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,D1035375,48,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,D1042950,48,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,D1226853,50,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL321,B2609244,4,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,B2802507,6,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C0309125,10,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C0413314,11,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C1474962,21,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C2222630,29,M,Ocelot,Leopardus pardalis,LEOPAR,2,1
+BSLL321,C2780363,34,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C2870429,35,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C2883221,35,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C2885574,35,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C2925714,36,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D0200645,40,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D0223162,40,M,Ocelot,Leopardus pardalis,LEOPAR,2,2
+BSLL321,D0319208,41,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D0519650,43,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D0782488,45,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D0913635,47,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D0972501,47,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,D1179549,49,M,Ocelot,Leopardus pardalis,LEOPAR,1,1
+BSLL321,C1055682,17,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL321,C2431143,31,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL321,C2634186,33,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL321,C2963238,36,M,Jaguar,Panthera onca,PANONC,1,1
+BSLL321,C1839181,25,M,Collared Peccary,Pecari tajacu,PECTAJ,10,4
+BSLL321,C2442524,31,M,Collared Peccary,Pecari tajacu,PECTAJ,11,1
+BSLL321,C2443271,31,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL321,C2447721,31,M,Collared Peccary,Pecari tajacu,PECTAJ,12,4
+BSLL321,C2516581,32,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
+BSLL321,D0949783,47,M,Collared Peccary,Pecari tajacu,PECTAJ,11,2
+BSLL321,B2870661,6,M,Puma,Puma concolor,PUMCON,1,1
+BSLL321,D0204649,40,M,Puma,Puma concolor,PUMCON,1,1
+BSLL321,C0383511,10,M,Tapir,Tapirus terrestris,TAPTER,6,1
+BSLL321,C0505031,12,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL321,C0506914,12,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL321,C0806255,15,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL321,C1074070,17,M,Tapir,Tapirus terrestris,TAPTER,3,1
+BSLL321,C1975461,26,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL321,D0401104,42,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL321,D1083233,48,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL321,D0540273,43,M,White-lipped peccary,Tayassu pecari,TAYPEC,2,1
+BSLL33,D0765046,42,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL33,D1537768,50,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL33,C0474384,8,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33,C1415738,18,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33,C1707979,21,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33,C2217127,26,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33,D0174426,36,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33,D1083131,45,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33,B2651452,1,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL33,C1184984,15,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL33,C3035791,34,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL33b,C2662294,33,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL33b,C3047974,37,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL33b,C3083008,37,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL33b,C1235300,19,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL33b,C1240444,19,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL33b,C1265205,19,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL33b,C2280988,29,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL33b,C0731228,14,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
+BSLL33b,B2481216,2,M,Puma,Puma concolor,PUMCON,2,1
+BSLL33b,B2872847,6,M,Puma,Puma concolor,PUMCON,1,1
+BSLL33b,C0462078,11,M,Puma,Puma concolor,PUMCON,1,1
+BSLL33b,B2376026,1,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL33b,C2383862,30,M,Tapir,Tapirus terrestris,TAPTER,4,1
+BSLL33b,B2674861,4,M,Tapir,Tapirus terrestris,TAPTER,7,1
+BSLL33b,B2801552,6,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,C1479693,21,M,Tapir,Tapirus terrestris,TAPTER,4,1
+BSLL33b,C1515783,22,M,Tapir,Tapirus terrestris,TAPTER,1,2
+BSLL33b,C1518085,22,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,C1521267,22,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,C1819835,25,M,Tapir,Tapirus terrestris,TAPTER,3,1
+BSLL33b,D0221482,40,M,Tapir,Tapirus terrestris,TAPTER,6,1
+BSLL33b,D0266140,40,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL33b,D0385162,41,M,Tapir,Tapirus terrestris,TAPTER,4,1
+BSLL33b,D0661608,44,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,D0680145,44,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL33b,D0700518,45,M,Tapir,Tapirus terrestris,TAPTER,4,1
+BSLL33b,D0708897,45,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL33b,D0781222,45,M,Tapir,Tapirus terrestris,TAPTER,4,1
+BSLL33b,D0910474,47,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,D0981383,47,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,D1073493,48,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,D1172717,49,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,D1178163,49,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL33b,C1558094,22,M,White-lipped peccary,Tayassu pecari,TAYPEC,51,8
+BSLL33b,C1560154,22,M,White-lipped peccary,Tayassu pecari,TAYPEC,4,3
+BSLL34,C2027034,25,M,Savannah Fox,Cerdocyon thous,CERTHO,1,1
+BSLL34,D0434414,40,M,Tayra,Eira barbara,EIRBAR,1,1
+BSLL34,C1362573,18,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL34,D0630824,42,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL34,D0756132,43,M,Collared Peccary,Pecari tajacu,PECTAJ,7,1
+BSLL34,D1734285,53,M,Collared Peccary,Pecari tajacu,PECTAJ,4,1
+BSLL34,D1737800,53,M,Collared Peccary,Pecari tajacu,PECTAJ,108,5
+BSLL35,Cdy00031,2,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL41,C3082338,32,M,Labba,Cuniculus paca,CUNPAC,1,1
+BSLL41,B2927401,2,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL41,C2443455,26,M,Agouti,Dasyprocta leporina,DASLEP,14,1
+BSLL41,C2111908,28,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL41,D1025412,43,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL41,C1418553,16,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL42,NA,4,M,Armadillo,Dasypus sp.,DASSP.,2,1
+BSLL42,NA,4,M,Armadillo,Dasypus sp.,DASSP.,2,1
+BSLL42,NA,8,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL42,NA,36,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL42,NA,38,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL42,NA,41,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL42,NA,10,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL42,NA,24,M,Bush deer,Mazama sp.,MAZSP.,6,1
+BSLL42,NA,29,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL42,NA,31,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL42,NA,38,M,Bush deer,Mazama sp.,MAZSP.,7,1
+BSLL42,NA,39,M,Bush deer,Mazama sp.,MAZSP.,9,1
+BSLL42,NA,24,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,25,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,26,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,26,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,29,M,Acouchy,Myoprocta acouchy,MYOACO,2,1
+BSLL42,NA,38,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,38,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,42,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,NA,46,M,Acouchy,Myoprocta acouchy,MYOACO,1,1
+BSLL42,B2100230,47,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL42,NA,1,M,Tapir,Tapirus terrestris,TAPTER,5,1
+BSLL42,NA,15,M,Tapir,Tapirus terrestris,TAPTER,13,1
+BSLL42,NA,22,M,Tapir,Tapirus terrestris,TAPTER,3,1
+BSLL42,NA,30,M,White-lipped peccary,Tayassu pecari,TAYPEC,3,2
+BSLL42,NA,46,M,White-lipped peccary,Tayassu pecari,TAYPEC,1,1
+BSLL43,17,30,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL43,21,35,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL43,25,43,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL43,12,9,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL43,14,20,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL43,18,32,M,Collared Peccary,Pecari tajacu,PECTAJ,3,1
+BSLL43,22,37,M,Collared Peccary,Pecari tajacu,PECTAJ,3,1
+BSLL43,26,52,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL43,27,52,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL43,28,52,M,Collared Peccary,Pecari tajacu,PECTAJ,6,4
+BSLL43,34,52,M,Collared Peccary,Pecari tajacu,PECTAJ,1,1
+BSLL44,C0180832,5,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL44,C0230316,6,M,Tayra,Eira barbara,EIRBAR,1,1
+BSLL44,C1741313,21,M,Collared Peccary,Pecari tajacu,PECTAJ,4,3
+BSLL45,C0909414,13,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL45,D1322071,48,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL45,D1702403,52,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL45,D1782798,52,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL45,C0575972,9,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL45,B2760902,2,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL45,C0520894,9,M,Bush deer,Mazama sp.,MAZSP.,50,1
+BSLL45,C0647353,10,M,Bush deer,Mazama sp.,MAZSP.,4,1
+BSLL45,C0853293,12,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL45,C0862836,12,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,C1151528,15,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,C1220157,16,M,Bush deer,Mazama sp.,MAZSP.,4,1
+BSLL45,C1243475,16,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL45,C1251548,16,M,Bush deer,Mazama sp.,MAZSP.,3,1
+BSLL45,C2071037,24,M,Bush deer,Mazama sp.,MAZSP.,9,2
+BSLL45,C2800251,32,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,C3002544,34,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,D0125173,36,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL45,D0949656,44,M,Bush deer,Mazama sp.,MAZSP.,2,1
+BSLL45,D0985170,44,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,D1236100,47,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,D1540315,50,M,Bush deer,Mazama sp.,MAZSP.,1,1
+BSLL45,B2747915,2,M,Tapir,Tapirus terrestris,TAPTER,11,1
+BSLL45,C0674878,10,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL45,C2504106,29,M,Tapir,Tapirus terrestris,TAPTER,2,1
+BSLL46,cyd00024,2,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,cyd00026,5,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL46,cyd00028,5,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,cyd00029,5,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,cyd00030,8,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,cyd00031,11,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,cyd00032,11,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,42,17,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,43,20,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,44,20,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,45,21,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,46,28,M,Agouti,Dasyprocta leporina,DASLEP,2,1
+BSLL46,48,30,M,Agouti,Dasyprocta leporina,DASLEP,3,1
+BSLL46,51,38,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,52,39,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,54,49,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL46,cyd00025,4,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL46,cyd00033,13,M,Collared Peccary,Pecari tajacu,PECTAJ,9,1
+BSLL46,53,47,M,Tapir,Tapirus terrestris,TAPTER,1,1
+BSLL47,K0874256,36,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL47,K0880176,35,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL47,K1910099,44,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL47,K2426994,47,M,Agouti,Dasyprocta leporina,DASLEP,1,1
+BSLL47,K1849952,44,M,Armadillo,Dasypus sp.,DASSP.,1,1
+BSLL47,J2630338,26,M,Collared Peccary,Pecari tajacu,PECTAJ,2,1
