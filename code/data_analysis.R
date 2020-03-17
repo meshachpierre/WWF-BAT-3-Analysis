@@ -197,11 +197,19 @@ capture_boots_long <- spread(capture_boots_long, values, value)
 #rearrange df
 (capture_boots_long <- capture_boots_long %>% 
   rename("name_sci" = variable,
-         "rai" = mean) %>% 
+         "rai_boot" = mean) %>% 
   mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
   arrange(rai))
 
 capture_boots_long
+
+capture_boots_long <- left_join(capture_boots_long, species_rai.tb, "name_sci") %>% 
+  mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
+  arrange(rai)
+
+capture_boots_long
+
+write_csv(capture_boots_long,path="data/rai_result_both_(boots-reg).csv")
 
 #plot
 (rai_boots.plot <- ggplot(capture_boots_long, aes(x=name_sci, y=rai)) +

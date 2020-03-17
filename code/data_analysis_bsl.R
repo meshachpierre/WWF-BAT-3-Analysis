@@ -219,7 +219,7 @@ capture_boots_long <- left_join(capture_boots_long, species_rai.tb, "name_sci") 
 
 capture_boots_long
 
-write_csv(capture_boots_long,path="data/rai_result_both_(boots-reg).csv")
+write_csv(capture_boots_long,path="data/rai_result_bsl_both_(boots-reg).csv")
 
 #plot
 (rai_boots.plot_bsl <- ggplot(capture_boots_long, aes(x=name_sci, y=rai)) +
