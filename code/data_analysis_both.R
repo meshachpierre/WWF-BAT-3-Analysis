@@ -441,8 +441,8 @@ write_csv(capture_boots_long_bsl,path="data/rai_result_bsl_both_(boots-reg).csv"
     theme(plot.margin=unit(c(1,1,1,1), "cm")))
 
 #save bootstrapped rai plot
-ggsave(file="rai_boots_plot_bsl.eps", path = "plots", plot=rai_boots.plot_bsl, width=5, height=4)
-ggsave(file="rai_boots_plot_bsl.png", path = "plots", plot=rai_boots.plot_bsl, width=5, height=4)
+ggsave(file="rai_boots_plot_bsl.eps", path = "plots", plot=rai_boots.plot_bsl, width=6, height=4)
+ggsave(file="rai_boots_plot_bsl.png", path = "plots", plot=rai_boots.plot_bsl, width=6, height=4)
 
 ######################## JOINT PLOTS ############################
 
