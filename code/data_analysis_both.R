@@ -328,7 +328,7 @@ trapnights_bsl.var <- sum(ct_setup_bsl.tb$trap_nights)
 #view the tb
 species_rai_bsl.tb
 
-(species_rai_bsl.tb <- species_rai.tb %>% 
+(species_rai_bsl.tb <- species_rai_bsl.tb %>% 
     arrange(rai)) 
 
 species_rai_bsl.tb
@@ -450,11 +450,11 @@ ggsave(file="rai_boots_plot_bsl.png", path = "plots", plot=rai_boots.plot_bsl, w
 (rai_boots.plot_both <- plot_grid(rai_boots.plot, rai_boots.plot_bsl, labels = "AUTO"))
 
 #save specaccuum plot with both datasets
-ggsave(file="specaccum.plot_both.eps", path = "plots", plot=specaccum.plot_both, width=5, height=4)
-ggsave(file="specaccum.plot_both.png", path = "plots", plot=specaccum.plot_both, width=5, height=4)
+ggsave(file="specaccum.plot_both.eps", path = "plots", plot=specaccum.plot_both, width=6, height=4)
+ggsave(file="specaccum.plot_both.png", path = "plots", plot=specaccum.plot_both, width=6, height=4)
 #save bootstrapped rai plot with both datasets
-ggsave(file="rai_boots.plot_both.eps", path = "plots", plot=rai_boots.plot_both, width=5, height=4)
-ggsave(file="rai_boots.plot_both.png", path = "plots", plot=rai_boots.plot_both, width=5, height=4)
+ggsave(file="rai_boots.plot_both.eps", path = "plots", plot=rai_boots.plot_both, width=6, height=4)
+ggsave(file="rai_boots.plot_both.png", path = "plots", plot=rai_boots.plot_both, width=6, height=4)
 
 ######################## CITATIONS ##############################
 
