@@ -34,7 +34,8 @@ rm(factor_cols)
 
 #Make dataframe with just mammals
 capture.tb <- capture.tb %>% 
-  filter(name_order=="M")
+  filter(name_order=="M") %>% 
+  filter(name_sci!="Mazama sp.")
 
 ################################ SPECIES ACCUM CURVE ######################################
 
@@ -224,6 +225,12 @@ write_csv(capture_boots_long,path="data/rai_result_both_(boots-reg).csv")
 ggsave(file="rai_boots_plot.eps", path = "plots", plot=rai_boots.plot, width=5, height=4)
 ggsave(file="rai_boots_plot.png", path = "plots", plot=rai_boots.plot, width=5, height=4)
 
+
+####################################          ###########################################
+####################################    BSL   ###########################################
+####################################          ###########################################
+
+
 #################################### LOAD DATA ###########################################
 capture_bsl.tb <- read_csv("data/capture_clean_bsl.csv")
 
@@ -249,6 +256,7 @@ capture_bsl.tb <- capture_bsl.tb %>%
 #Check mammals and remove leopardus sp.
 capture_bsl.tb <- capture_bsl.tb %>% 
   filter(name_sci!="Leopardus sp") %>% 
+  filter(name_sci!="Mazama sp.")
   filter(id_station != "BSLL35")
 
 capture_bsl.tb <- droplevels(capture_bsl.tb)
@@ -301,8 +309,9 @@ ggsave(file="specaccum_plot_bsl.png", path = "plots", plot=specaccum.plot_bsl, w
 specpool(spec_acc_bsl.mat)
 
 diversityresult(spec_acc_BDR_bsl.tb, y=NULL, index="inverseSimpson", method="pooled", digits=5)
+diversityresult(spec_acc_BDR_bsl.tb, y=NULL, index="Logalpha", method="pooled", digits=5)
 
-######################################## RAI ##############################################
+  ######################################## RAI ##############################################
 
 #Load CT setup datasheet, check if okay and sum + output total trap nights
 ct_setup_bsl.tb <- read_csv("data/bsl_ct_setup_raw.csv")
@@ -424,15 +433,15 @@ capture_boots_long_bsl <- spread(capture_boots_long_bsl, values_bsl, value)
 capture_boots_long_bsl
 
 capture_boots_long_bsl <- left_join(capture_boots_long_bsl, species_rai_bsl.tb, "name_sci") %>% 
-  mutate(name_sci = fct_reorder(name_sci, desc(rai))) %>% 
-  arrange(rai)
+  mutate(name_sci = fct_reorder(name_sci, desc(rai_boot))) %>% 
+  arrange(rai_boot)
 
 capture_boots_long_bsl
 
 write_csv(capture_boots_long_bsl,path="data/rai_result_bsl_both_(boots-reg).csv")
 
 #plot
-(rai_boots.plot_bsl <- ggplot(capture_boots_long_bsl, aes(x=name_sci, y=rai)) +
+(rai_boots.plot_bsl <- ggplot(capture_boots_long_bsl, aes(x=name_sci, y=rai_boot)) +
     geom_bar(stat = "identity") +
     geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5) +
     labs(x = "Scientific name", y="RAI") +
@@ -453,8 +462,8 @@ ggsave(file="rai_boots_plot_bsl.png", path = "plots", plot=rai_boots.plot_bsl, w
 ggsave(file="specaccum.plot_both.eps", path = "plots", plot=specaccum.plot_both, width=6, height=4)
 ggsave(file="specaccum.plot_both.png", path = "plots", plot=specaccum.plot_both, width=6, height=4)
 #save bootstrapped rai plot with both datasets
-ggsave(file="rai_boots.plot_both.eps", path = "plots", plot=rai_boots.plot_both, width=6, height=4)
-ggsave(file="rai_boots.plot_both.png", path = "plots", plot=rai_boots.plot_both, width=6, height=4)
+ggsave(file="rai_boots.plot_both.eps", path = "plots", plot=rai_boots.plot_both, width=8, height=4)
+ggsave(file="rai_boots.plot_both.png", path = "plots", plot=rai_boots.plot_both, width=8, height=4)
 
 ######################## CITATIONS ##############################
 

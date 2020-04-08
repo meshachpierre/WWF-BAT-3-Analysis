@@ -16,7 +16,7 @@ lapply(packages, library, character.only = TRUE)
 rm(packages)
 
 #################################### LOAD DATA ###########################################
-capture_raw.tb <- read_csv("data/bsl_capture_raw.csv")
+capture_raw.tb <- read_csv("data/bsl_capture_raw_deer.csv")
 
 ############################# PREPARING DATAFRAME/COLUMNS ###############################
 ################################## CAPTURE DATAFRAME ####################################
@@ -84,3 +84,4 @@ glimpse(capture_raw.tb)
 ######################################## EXPORT #########################################
 #export capture dataset
 write_csv(capture_raw.tb, path="data/capture_clean_bsl.csv")
+
