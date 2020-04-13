@@ -215,6 +215,7 @@ write_csv(capture_boots_long,path="data/rai_result_both_(boots-reg).csv")
 #plot
 (rai_boots.plot <- ggplot(capture_boots_long, aes(x=name_sci, y=rai_boot)) +
   geom_bar(stat = "identity") +
+  ylim(NA,8)+
   geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5) +
   labs(x = "Scientific name", y="RAI") +
   theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
@@ -443,6 +444,7 @@ write_csv(capture_boots_long_bsl,path="data/rai_result_bsl_both_(boots-reg).csv"
 #plot
 (rai_boots.plot_bsl <- ggplot(capture_boots_long_bsl, aes(x=name_sci, y=rai_boot)) +
     geom_bar(stat = "identity") +
+    ylim(NA,8)+
     geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5) +
     labs(x = "Scientific name", y="RAI") +
     theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
@@ -465,6 +467,37 @@ ggsave(file="specaccum.plot_both.png", path = "plots", plot=specaccum.plot_both,
 ggsave(file="rai_boots.plot_both.eps", path = "plots", plot=rai_boots.plot_both, width=8, height=4)
 ggsave(file="rai_boots.plot_both.png", path = "plots", plot=rai_boots.plot_both, width=8, height=4)
 
+######################## COMPARISON PLOT ##############################
+#Make column with camp variable
+list_camp1 <- rep("camp 1",length(capture_boots_long$name_sci))
+capture_boots_long <- cbind(capture_boots_long, list_camp1)
+capture_boots_long <- capture_boots_long %>% 
+  rename("camp" = list_camp1) %>% 
+  glimpse
+         
+#Make column with camp variable
+list_camp2 <- rep("camp 2",length(capture_boots_long_bsl$name_sci))
+capture_boots_long_bsl <- cbind(capture_boots_long_bsl, list_camp2)
+capture_boots_long_bsl <- capture_boots_long_bsl %>% 
+  rename("camp" = list_camp2) %>% 
+  glimpse
+
+#combine both tibbles
+capture_boots_long_both <- rbind(capture_boots_long, capture_boots_long_bsl)
+
+#plot with both camps on one plot
+pd <- position_dodge(0.7)
+
+(rai_boots.plot_both <- ggplot(capture_boots_long_both, aes(x=name_sci, y=rai_boot, fill= camp, group = camp)) +
+    geom_bar(stat = "identity", position = "dodge", width = 0.7) +
+    ylim(NA,8)+
+    geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5, position = pd) +
+    labs(x = "Scientific name", y="RAI") +
+    theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
+    theme(axis.text.x = element_text(face = "italic")) +
+    theme(plot.margin=unit(c(1,1,1,1), "cm")))
+
+(rai_boots.plot_both <- plot_grid(rai_boots.plot, rai_boots.plot_bsl, labels = "AUTO"))
 ######################## CITATIONS ##############################
 
 citation(package = "vegan")
