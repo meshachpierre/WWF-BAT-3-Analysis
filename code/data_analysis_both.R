@@ -160,12 +160,12 @@ capture_wide.tb <- capture_2.tb %>%
   group_by(id_station,name_sci) %>% 
   summarise(trap_nights = unique(trap_nights),
             count_ind = (sum(count_ind)/trap_nights)*100) %>% 
-  spread(name_sci,count_ind) %>% 
+  spread(name_sci,count_ind) %>%
+  replace(is.na(.), 0) %>% 
   glimpse()
 
 #Remove trap night column and make NA's into 0's
 capture_wide.tb <- capture_wide.tb[,c(-2,-1)]
-capture_wide.tb[is.na(capture_wide.tb)] <- 0
 
 glimpse(capture_wide.tb)
 
@@ -226,6 +226,30 @@ write_csv(capture_boots_long,path="data/rai_result_both_(boots-reg).csv")
 ggsave(file="rai_boots_plot.eps", path = "plots", plot=rai_boots.plot, width=5, height=4)
 ggsave(file="rai_boots_plot.png", path = "plots", plot=rai_boots.plot, width=5, height=4)
 
+###################### NAIVE OCCUPANCY ##############################
+
+capture_occ.tb <- capture_2.tb %>% 
+  filter(trap_nights >= 40) %>% 
+  filter(date_dayno <= 40) %>% 
+  select(id_station, trap_nights, name_sci, count_ind) %>% 
+  group_by(id_station,name_sci) %>% 
+  summarise(trap_nights = unique(trap_nights),
+            count_ind = max(if_else(count_ind > 0,1, 0))) %>% 
+  spread(name_sci,count_ind) %>% 
+  glimpse()
+
+station_levels.var <- nlevels(capture_occ.tb$id_station)
+capture_occ.tb <- capture_occ.tb[,c(-2,-1)]
+
+capture_occ.tb <- capture_occ.tb %>%
+  replace(is.na(.), 0) %>%
+  summarise_all(funs(sum)) %>% 
+  gather("name_sci","sum") %>% 
+  glimpse()
+
+capture_occ.tb <- capture_occ.tb %>% 
+  mutate(occ = sum/station_levels.var) %>% 
+  glimpse()
 
 ####################################          ###########################################
 ####################################    BSL   ###########################################
@@ -455,6 +479,31 @@ write_csv(capture_boots_long_bsl,path="data/rai_result_bsl_both_(boots-reg).csv"
 ggsave(file="rai_boots_plot_bsl.eps", path = "plots", plot=rai_boots.plot_bsl, width=6, height=4)
 ggsave(file="rai_boots_plot_bsl.png", path = "plots", plot=rai_boots.plot_bsl, width=6, height=4)
 
+###################### NAIVE OCCUPANCY ##############################
+
+capture_occ_bsl.tb <- capture_2_bsl.tb %>% 
+  filter(trap_nights >= 40) %>% 
+  filter(date_dayno <= 40) %>% 
+  select(id_station, trap_nights, name_sci, count_ind) %>% 
+  group_by(id_station,name_sci) %>% 
+  summarise(trap_nights = unique(trap_nights),
+            count_ind = max(if_else(count_ind > 0,1, 0))) %>% 
+  spread(name_sci,count_ind) %>% 
+  glimpse()
+
+station_levels_bsl.var <- nlevels(capture_occ_bsl.tb$id_station)
+capture_occ_bsl.tb <- capture_occ_bsl.tb[,c(-2,-1)]
+
+capture_occ_bsl.tb <- capture_occ_bsl.tb %>%
+  replace(is.na(.), 0) %>%
+  summarise_all(funs(sum)) %>% 
+  gather("name_sci","sum") %>% 
+  glimpse()
+
+capture_occ_bsl.tb <- capture_occ_bsl.tb %>% 
+  mutate(occ = sum/station_levels.var) %>% 
+  glimpse()
+
 ######################## JOINT PLOTS ############################
 
 (specaccum.plot_both <- plot_grid(specaccum.plot, specaccum.plot_bsl, labels = "AUTO"))
@@ -488,7 +537,7 @@ capture_boots_long_both <- rbind(capture_boots_long, capture_boots_long_bsl)
 #plot with both camps on one plot
 pd <- position_dodge(0.7)
 
-(rai_boots.plot_both <- ggplot(capture_boots_long_both, aes(x=name_sci, y=rai_boot, fill= camp, group = camp)) +
+(rai_boots.plot_combined <- ggplot(capture_boots_long_both, aes(x=name_sci, y=rai_boot, fill= camp, group = camp)) +
     geom_bar(stat = "identity", position = "dodge", width = 0.7) +
     ylim(NA,8)+
     geom_errorbar(aes(ymin=ci_l,ymax=ci_u),width=.5, position = pd) +
@@ -497,7 +546,37 @@ pd <- position_dodge(0.7)
     theme(axis.text.x = element_text(face = "italic")) +
     theme(plot.margin=unit(c(1,1,1,1), "cm")))
 
-(rai_boots.plot_both <- plot_grid(rai_boots.plot, rai_boots.plot_bsl, labels = "AUTO"))
+#save bootstrapped rai plot with both datasets
+ggsave(file="rai_boots.plot_combined.eps", path = "plots", plot=rai_boots.plot_combined, width=8, height=4)
+ggsave(file="rai_boots.plot_combined.png", path = "plots", plot=rai_boots.plot_combined, width=8, height=4)
+
+###################### RAI COMPARISON ###########################
+
+rai_comp.tb <- read_csv("data/comparison_rai.csv")
+
+rai_comp.tb %>% 
+  mutate(name_sci = as.factor(name_sci)) %>% 
+  glimpse()
+
+rai_comp_long <- rai_comp.tb %>% 
+  gather("study","rai",-name_sci)
+
+ggplot(rai_comp_long, aes(x=name_sci, y=rai, fill= study, group = study)) +
+  geom_bar(stat = "identity", position = "dodge", width = 0.7) +
+  labs(x = "Scientific name", y="RAI") +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
+  theme(axis.text.x = element_text(face = "italic")) +
+  theme(plot.margin=unit(c(1,1,1,1), "cm"))
+
+for (var in unique(rai_comp_long$name_sci)){
+  print(ggplot(rai_comp_long[rai_comp_long$name_sci==var,], aes(study,rai)) + 
+          ggtitle(var) + 
+          geom_bar( stat="identity") +
+          theme(axis.text.x = element_text(angle = 50, hjust = 1)) +
+          theme(axis.text.x = element_text(face = "italic")) +
+          theme(plot.margin=unit(c(1,1,1,1), "cm")))
+}
+
 ######################## CITATIONS ##############################
 
 citation(package = "vegan")
