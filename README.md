@@ -33,3 +33,12 @@ Notes:
 - Repository will be updated and finalized when metadata and changelog files are generated, and data are archived in a long term repository with a persistent digital object identifier (DOI)
 - Expect changes to the folder structure, organization, and naming of files as the repository is organized and finalized. I do not expect that the data and scripts will change significantly, as they have already been published as is. Changes will be merely to help with the ease of access to those unfamiliar with the files and the project.
 - If you do use these data, please cite our paper using the citation details above. Thank you!
+
+Tasks:
+
+- [x] Upload data and code
+- [ ] Reorganize folders into more intuitive layout
+- [ ] Make final updates to code, indicating which code should be used for directly replicating our analyses
+- [ ] Write and publish metadata for the cleaned data
+- [ ] Write and publish changelog for the cleaned data
+- [ ] Archive and publish data in data repository
