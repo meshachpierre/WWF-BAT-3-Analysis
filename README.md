@@ -4,6 +4,8 @@ These data and code are part of a project to assess the populations of large- an
 
 Additionally, data were included from a separate project conducted in the same study area in 2016 to assess the impacts of roads on medium- and large mammals. This project was conducted by Panthera and funded by the Species without Borders Program of the United States Fish and Wildlife Service.
 
+*Note:* Camera traps allow for the collection of data from a variety of taxa. Basically anything that's warmer than the surrounding environment that passing in front of the camera will trigger it. As such, the data include records of ground birds and incidental records of other animals and vehicles. These records were not used in our analysis as we focused only on large- and medium-bodied mammals. Be sure to explore the data to gain a full idea of its potential uses.
+
 Further details on the methods employed, study design, and study site context can be found in the peer-reviewed article linked below.
 
 Abstract:
