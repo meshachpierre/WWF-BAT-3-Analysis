@@ -25,6 +25,7 @@ Guide to folders:
 - manuscript/figures: figures used in the manuscript (.jpg examples of camera trap images)
 - map: gis (shapefile) layers, map from manuscript (in both .jpeg and .svg) and the QGIS project used to generate the map used in the manuscript
 - plots: exploratory plots and final plots used in manuscript (in both .png and .svg)
+- manuscript_final: A pdf copy of the manuscript, for reference
 
 Notes:
 
