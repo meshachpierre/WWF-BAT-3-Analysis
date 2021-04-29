@@ -1,5 +1,7 @@
 # Medium- and large- mammal assessment of the Upper Berbice, Guyana
 
+![CDY_0004](https://user-images.githubusercontent.com/48991184/116556077-150e0580-a8cb-11eb-94ff-50b3700ae3cc.JPG)
+
 These data and code are part of a project to assess the populations of large- and medium-bodied mammals in the Upper Berbice Region of Guyana. It uses data collected in 2014 under a World Wildlife Fund-Guianas and Global Wildlife Conservation Rapid Assessment in partnership with Panthera. At the time I was Panthera's 2014-2015 Winston Cobb Memorial Fellow. 
 
 Additionally, data were included from a separate project conducted in the same study area in 2016 to assess the impacts of roads on medium- and large mammals. This project was conducted by Panthera and funded by the Species without Borders Program of the United States Fish and Wildlife Service.
